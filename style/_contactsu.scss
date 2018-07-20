@@ -1,0 +1,811 @@
+@media (min-width: 320px) {
+  .contact-summer {
+    position: relative;
+    top: 1000px;
+    height: 200px;
+    left: 21px;
+    width: 280px;
+    margin-top: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {/*hover yellow line width*/
+    width: 120px;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 320px;
+    position: relative;
+    right: 21px;
+    top: -150px;
+  }
+}
+
+@media (min-width: 360px) {
+  .contact-summer {
+    position: relative;
+    top: 1000px;
+    height: 200px;
+    left: 38px;
+    width: 300px;
+    margin-top: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {/*hover yellow line width*/
+    width: 120px;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 360px;
+    position: relative;
+    right: 38px;
+    top: -150px;
+  }
+}
+
+@media (min-width: 375px) {
+
+  .contact-summer {
+    position: relative;
+    top: 1000px;
+    height: 200px;
+    left: 38px;
+    width: 300px;
+    margin-top: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {/*hover yellow line width*/
+    width: 120px;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 375px;
+    position: relative;
+    right: 38px;
+    top: -150px;
+  }
+}
+
+@media (min-width: 411px) {
+  .contact-summer {
+    position: relative;
+    top: 1000px;
+    height: 200px;
+    left: 31px;
+    width: 350px;
+    margin-top: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {/*hover yellow line width*/
+    width: 120px;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 411px;
+    position: relative;
+    right: 31px;
+    top: -150px;
+  }
+}
+
+@media (min-width: 425px) {
+  .contact-summer {
+    position: relative;
+    top: 1000px;
+    height: 200px;
+    left: 40px;
+    width: 350px;
+    margin-top: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {/*hover yellow line width*/
+    width: 130px;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 425px;
+    position: relative;
+    right: 40px;
+    top: -150px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .contact-summer {
+    position: relative;
+    top: -350px;
+    height: 200px;
+    left: 150px;
+    width: 490px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {/*hover yellow line width*/
+    width: 150px;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 768px;
+    position: relative;
+    right: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+
+    .contact-summer {
+      position: relative;
+      top: -300px;
+      height: 210px;
+      left: 200px;
+      width: 600px;
+      border: solid 0;
+      border-color: $border-color;/* variablesを利用 */
+      text-align: center;
+      text-decoration: none;
+      background-color: $border-color;
+      opacity: 0.25;
+
+       a {
+        color: $base-color;
+        position: relative;
+        top: 50px;
+        text-decoration: none;
+        font-size: 60px;
+        font-style: italic;
+        opacity: 0.5;
+      }
+
+      a:hover {
+        color: $base-color;
+        position: relative;
+        font-size: 60px;
+        font-style: italic;
+        opacity: 1;
+        text-decoration: none;
+      }
+
+      p{
+        padding-top: 250px;
+        font-size: 13px;
+        color: $base-color;
+      }
+    }
+
+    .contact-summer a::before, .contact-summer a::after {
+      border-color: $base-color;
+      border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+      bottom: 0;
+      content: "";
+      display: block;
+      position: absolute;
+      transition: all .3s ease;
+      -webkit-transition: all .3s ease;
+      width: 0;
+    }
+
+    .contact-summer a::before {
+      left: 50%;
+    }
+
+    .contact-summer a::after {
+      right: 50%;
+    }
+
+    .contact-summer a:hover::before, .contact-summer a:hover::after {
+      width: 150px;
+    }
+
+    .contact-summer h2 {
+      border-bottom: solid 1px black;
+      width: 992px;
+      position: relative;
+      right: 200px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+  .contact-summer {
+    position: relative;
+    top: -300px;
+    height: 210px;
+    left: 211px;
+    width: 600px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {
+    width: 170px;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 1024px;
+    position: relative;
+    right: 211px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .contact-summer {
+    position: relative;
+    top: 50px;
+    height: 200px;
+    left: 150px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {
+    width: 100%;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 1200px;
+    position: relative;
+    /*bottom: 0;
+    top: 100px;*/
+    right: 150px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contact-summer {
+    position: relative;
+    top: 0;
+    height: 200px;
+    left: 200px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {
+    width: 100%;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 1280px;
+    position: relative;
+    bottom: 298px;
+    right: 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .contact-summer {
+    position: relative;
+    top: 0;
+    height: 200px;
+    left: 270px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-summer a::before, .contact-summer a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-summer a::before {
+    left: 50%;
+  }
+
+  .contact-summer a::after {
+    right: 50%;
+  }
+
+  .contact-summer a:hover::before, .contact-summer a:hover::after {
+    width: 100%;
+  }
+
+  .contact-summer h2 {
+    border-bottom: solid 1px black;
+    width: 1440px;
+    position: relative;
+    bottom: 298px;
+    right: 270px;
+  }
+}

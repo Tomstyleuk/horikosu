@@ -1,0 +1,726 @@
+@media (min-width: 320px) {
+
+  .contact-autumn {
+    position: relative;
+    top: 900px;
+    height: 200px;
+    left: 21px;
+    width: 280px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 100px;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 120px;
+  }
+}
+
+@media (min-width: 360px) {
+  .contact-autumn {
+    position: relative;
+    top: 900px;
+    height: 200px;
+    left: 31px;
+    width: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 120px;
+  }
+}
+
+@media (min-width: 375px) {
+  .contact-autumn {
+    position: relative;
+    top: 900px;
+    height: 200px;
+    left: 38px;
+    width: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 120px;
+  }
+}
+
+@media (min-width: 411px) {
+  .contact-autumn {
+    position: relative;
+    top: 900px;
+    height: 200px;
+    left: 31px;
+    width: 350px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 120px;
+  }
+}
+
+@media (min-width: 425px) {
+  .contact-autumn {
+    position: relative;
+    top: 900px;
+    height: 200px;
+    left: 40px;
+    width: 350px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-autumn {
+    position: relative;
+    top: 200px;
+    height: 200px;
+    left: 150px;
+    width: 490px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 130px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-autumn {
+    position: relative;
+    top: 0;
+    height: 210px;
+    left: 190px;
+    width: 600px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-autumn {
+    position: relative;
+    top: 150px;
+    height: 210px;
+    left: 215px;
+    width: 600px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-autumn {
+    position: relative;
+    top: 200px;
+    height: 200px;
+    left: 160px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contact-autumn {
+    position: relative;
+    top: 0;
+    height: 200px;
+    left: 200px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact-autumn {
+    position: relative;
+    top: 0;
+    height: 200px;
+    left: 284px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+    margin-top: 0;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-autumn a::before, .contact-autumn a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-autumn a::before {
+    left: 50%;
+  }
+
+  .contact-autumn a::after {
+    right: 50%;
+  }
+
+  .contact-autumn a:hover::before, .contact-autumn a:hover::after {
+    width: 100%;
+  }
+}

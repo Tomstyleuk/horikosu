@@ -1,0 +1,562 @@
+
+.sns-bar {
+  float: right;
+  margin-right: 300px;
+}
+
+.sns-icon {
+  list-style: none;
+  display: inline-flex;
+  position: fixed;
+}
+
+.sns-icon a {
+  color: gray;
+}
+
+.sns-icon a:hover {
+  opacity: 0.5;
+  color: gray;
+  text-decoration: none;
+}
+
+
+.Instagram {
+  border-bottom: solid 2px #fff3b8;/*cream yellow*/
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  width: 0;
+}
+
+.Twitter {
+  border-bottom: solid 2px #fff3b8;/*cream yellow*/
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  width: 0;
+  margin: 0 30px;
+}
+
+.note {
+  border-bottom: solid 2px #fff3b8;/*cream yellow*/
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  width: 0;
+}
+
+@media (min-width: 320px) {
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 10px;
+    margin-left: 92px;
+    margin-top: -34px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 46px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 15px 0 8px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: -7px;
+  }
+}
+
+@media (min-width: 360px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 10px;
+    margin-left: 92px;
+    margin-top: -34px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px 0 10px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 375px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 10px;
+    margin-left: 92px;
+    margin-top: -34px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px 0 10px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 411px)  {
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 11px;
+    margin-left: 92px;
+    margin-top: -34px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px 0 10px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 425px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 11px;
+    margin-left: 92px;
+    margin-top: -34px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px 0 10px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: -17px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 11px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: -15px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: -15px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: -15px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .sns-bar {
+    float: right;
+    margin-right: 300px;
+  }
+
+  .sns-icon {
+    list-style: none;
+    display: inline-flex;
+    position: fixed;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: -15px;
+  }
+
+  .sns-icon a {
+    color: gray;
+  }
+
+  .sns-icon a:hover {
+    opacity: 0.5;
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  .Instagram {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 30px;
+  }
+
+  .Twitter {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin: 0 30px;
+  }
+
+  .note {
+    border-bottom: solid 2px #fff3b8;/*cream yellow*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+    margin-left: 0;
+  }
+}

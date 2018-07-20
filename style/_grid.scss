@@ -1,0 +1,61 @@
+
+.row {
+  display: flex;
+  margin: 0 -15px;
+  /* グリッドを使わないコンテンツとグリッドを使うコンテンツとの位置を調整 */
+  flex-wrap: wrap; }
+
+  .col-1 {
+    flex-basis: 1 / 12 * 100%;
+  }
+
+  .col-2 {
+    flex-basis: 2 / 12 * 100%;
+  }
+
+  .col-3 {
+    flex-basis: 3 / 12 * 100%;
+  }
+  .col-4 {
+    flex-basis: 4 /12 * 100%;
+  }
+
+  .col-5 {
+    flex-basis: 5 / 12 * 100%;
+  }
+
+  .col-6 {
+    flex-basis: 6 / 12 * 100%;
+  }
+  .col-7 {
+    flex-basis: 7 / 12 * 100%;
+  }
+
+  .col-8 {
+    flex-basis: 8 / 12 * 100%;
+  }
+
+  .col-9 {
+    flex-basis: 9 / 12 * 100%;
+  }
+
+  .col-10 {
+    flex-basis: 10 / 12 * 100%;
+  }
+
+  .col-11{
+    flex-basis: 11 / 12 * 100%;
+  }
+
+  .col-12 {
+    flex-basis: 12 / 12 * 100%;
+  }
+
+
+@media (min-width: 1280px) {
+  .row {
+    display: flex;
+    margin: 0 -15px;
+    /* グリッドを使わないコンテンツとグリッドを使うコンテンツとの位置を調整 */
+    flex-wrap: wrap; }
+}

@@ -1,0 +1,2382 @@
+/*top page winter image*/
+
+.winter {
+  float: left;
+  position: relative;
+  left: 400px;
+}
+
+.winter p {
+  color: #a4c1d7;/*#a4c1d7 smoke blue*/
+  width: 400px;
+  font-style: $font-style;
+  position: absolute;
+  height: 400px;
+  padding-top: 205px;
+  padding-left: 130px;
+  margin-bottom: 0;
+  font-size: 50px;
+  opacity: 0;
+}
+
+.winter p:hover{
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease-in-out;
+}
+
+/*top page winter image*/
+
+
+/*index-5.html winter page*/
+
+
+.winter-title {
+  position: relative;
+  top: 200px;
+  left: 595px;
+}
+
+.winter-title h1 {
+  font-size: 90px;
+  font-style: $font-style;
+  color: #a4c1d7; /*#a4c1d7 smoke blue*/
+  font-family: -webkit-pictograph;
+}
+
+.winter-title p{
+  border-bottom: solid 1px $border-color;
+  position: relative;
+  bottom: 23px;
+  width: 325px;
+  right: 35px;
+}
+
+.winter-title-comment p{
+  text-decoration: none;
+  position: relative;
+  top: 167px;
+  left: 315px;
+  text-align: center;
+  color: $border-color;
+  font-style: oblique;
+  font-family: -webkit-pictograph;
+}
+
+.winter-title-img {
+  width: 800px;
+  position: relative;
+  top: 250px;
+  left: 320px;
+}
+
+.winter-cord1 {
+  position: relative;
+  top: 500px;
+  left: 200px;
+  right: 100px;
+  width: 400px;
+}
+
+.winter-cord1 p{
+  color: darkgray;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.winter-cord2 {
+  position: relative;
+  left: 820px;
+  width: 400px;
+  top: 30px;
+}
+
+.winter-cord2 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.winter-cord3 {
+  position: relative;
+  right: 100px;
+  top: 115px;
+  left: 200px;
+  width: 400px;
+}
+
+.winter-cord3 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.winter-cord4 {
+  position: relative;
+  left: 820px;
+  bottom: 355px;
+  width: 400px;
+}
+
+.winter-cord4 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.middle-winter1 {
+  /*background-image: url(../big-photos/shop-img3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;*/
+  height: 200px;
+  width: 300px;
+  color: white;
+  position: relative;
+  bottom: 60px;
+  left: 160px;
+  float: left;
+}
+
+.middle-winter2 {
+  width: 400px;
+  float: left;
+  position: relative;
+  left: 210px;
+  bottom: 100px;
+}
+
+.middle-winter3 {
+  width: 380px;
+  float: left;
+  position: relative;
+  left: 270px;
+  top: 200px;
+}
+
+.winter-styles-top h2 {
+  border-bottom: solid 1px $border-color;
+  width: 1440px;
+  position: relative;
+  bottom: 180px;
+  right: 0;
+  margin-bottom: 200px;
+}
+
+@media (min-width: 320px) {
+  .winter {
+    /*float: left;*/
+    position: relative;
+    top: 0; /*topを設定するとlink hoverが効かなくなる */
+    left: -170px;
+    margin-top: 670px;
+  }
+
+  .winter-image {
+    width: 250px;
+    margin-left: -58px;
+  }
+  .winter p {
+    color: #a4c1d7;
+    width: 0;
+    height: 0;
+    font-style: oblique;
+    position: relative;
+    top: 55px;
+    padding-top: 100px;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a {
+    position: relative;
+    color: #a4c1d7;
+    top: -150px;
+    right: 12px;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 75px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 60px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px darkgray;
+    position: relative;
+    bottom: 14px;
+    width: 191px;
+    right: 8px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 169px;
+    left: 16px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 290px;
+    position: relative;
+    top: 250px;
+    left: 16px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 450px;
+    left: 20px;
+    right: 100px;
+    width: 250px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 20px;
+    width: 250px;
+    top: 500px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 500px;
+    left: 20px;
+    width: 250px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 20px;
+    bottom: 0;
+    top: 550px;
+    width: 250px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 190px;
+    width: 140px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 20px;
+    float: left;
+    top: 650px;
+  }
+
+  .middle-winter2 {
+    width: 230px;
+    float: left;
+    position: relative;
+    left: 50px;
+    bottom: 0;
+    top: 600px;
+  }
+
+  .middle-winter3 {
+    width: 170px;
+    float: left;
+    position: relative;
+    left: 130px;
+    top: 630px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 320px;
+    position: relative;
+    bottom: 0;
+    top: 600px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 320px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 1180px;
+  }
+}
+
+@media (min-width: 360px) {
+  .winter {
+    /*float: left;*/
+    position: relative;
+    top: 0;
+    left: -170px;
+    margin-top: 700px;
+  }
+
+  .winter-image {
+    width: 300px;
+    margin-left: -113px;
+  }
+  .winter p {
+    color: #a4c1d7;
+    width: 0;
+    height: 0;
+    font-style: oblique;
+    position: relative;
+    top: 0;
+    padding-top: 100px;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a {
+    position: relative;
+    color: #a4c1d7;
+    top: -90px;
+    right: 43px;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 96px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px darkgray;
+    position: relative;
+    bottom: 14px;
+    width: 191px;
+    right: 8px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 169px;
+    left: 11px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 340px;
+    position: relative;
+    top: 250px;
+    left: 11px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 450px;
+    left: 17px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 17px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 500px;
+    left: 17px;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 17px;
+    bottom: 0;
+    top: 550px;
+    width: 300px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 190px;
+    width: 160px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 20px;
+    float: left;
+    top: 650px;
+  }
+
+  .middle-winter2 {
+    width: 240px;
+    float: left;
+    position: relative;
+    left: 60px;
+    bottom: 0;
+    top: 600px;
+  }
+
+  .middle-winter3 {
+    width: 160px;
+    float: left;
+    position: relative;
+    left: 140px;
+    top: 630px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 360px;
+    position: relative;
+    bottom: 0;
+    top: 600px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 360px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 1180px;
+  }
+}
+
+@media (min-width: 375px) {
+  .winter {
+    /*float: left;*/
+    position: relative;
+    top: 0;
+    left: -170px;
+    margin-top: 700px;
+  }
+
+  .winter-image {
+    width: 300px;
+    margin-left: -105px;
+  }
+
+  .winter p {
+    color: #a4c1d7;
+    width: 0;
+    height: 0;
+    font-style: oblique;
+    position: relative;
+    top: 0;
+    padding-top: 100px;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a {
+    position: relative;
+    color: #a4c1d7;
+    top: -90px;
+    right: 34px;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px darkgray;
+    position: relative;
+    bottom: 14px;
+    width: 191px;
+    right: 8px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 169px;
+    left: 14px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 350px;
+    position: relative;
+    top: 250px;
+    left: 13px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 450px;
+    left: 24px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 24px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 500px;
+    left: 24px;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 24px;
+    bottom: 0;
+    top: 550px;
+    width: 300px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 170px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 20px;
+    float: left;
+    top: 650px;
+  }
+
+  .middle-winter2 {
+    width: 260px;
+    float: left;
+    position: relative;
+    left: 50px;
+    bottom: 0;
+    top: 600px;
+  }
+
+  .middle-winter3 {
+    width: 170px;
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 630px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 375px;
+    position: relative;
+    bottom: 0;
+    top: 600px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 375px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 1180px;
+  }
+}
+
+@media (min-width: 411px) {
+  .winter {
+    float: left;
+    position: relative;
+    width: 300px;
+    right: 160px;
+    top: 0;
+    left: -170px;
+    margin-top: 700px;
+  }
+
+  .winter-image {
+    width: 300px;
+    margin-left: -86px;
+  }
+
+  /*.winter-image img{
+    width: 300px;
+  }*/
+
+  .winter p {
+    color: #a4c1d7;
+    width: 0;
+    height: 0;
+    font-style: oblique;
+    position: relative;
+    top: 0;
+    padding-top: 100px;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a {
+    position: relative;
+    color: #a4c1d7;
+    top: -90px;
+    right: 12px;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 123px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px darkgray;
+    position: relative;
+    bottom: 14px;
+    width: 191px;
+    right: 8px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 169px;
+    left: 18px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 390px;
+    position: relative;
+    top: 250px;
+    left: 11px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 450px;
+    left: 40px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 40px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 500px;
+    left: 40px;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 40px;
+    bottom: 0;
+    top: 550px;
+    width: 300px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 170px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 50px;
+    float: left;
+    top: 650px;
+  }
+
+  .middle-winter2 {
+    width: 260px;
+    float: left;
+    position: relative;
+    left: 90px;
+    bottom: 0;
+    top: 600px;
+  }
+
+  .middle-winter3 {
+    width: 170px;
+    float: left;
+    position: relative;
+    left: 160px;
+    top: 630px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 411px;
+    position: relative;
+    bottom: 0;
+    top: 600px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 411px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 1180px;
+  }
+}
+
+@media (min-width: 425px) {
+  .winter {
+    float: left;
+    position: relative;
+    width: 300px;
+    right: 160px;
+    top: 0;
+    left: -160px;
+    margin-top: 700px;
+  }
+
+  .winter-image {
+    width: 300px;
+    margin-left: -90px;
+  }
+
+  /*.winter-image img{
+    width: 300px;
+  }*/
+
+  .winter p {
+    color: #a4c1d7;
+    width: 0;
+    height: 0;
+    font-style: oblique;
+    position: relative;
+    top: 0;
+    padding-top: 100px;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 45px;
+    opacity: 1;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a {
+    position: relative;
+    color: #a4c1d7;
+    top: -90px;
+    right: 12px;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 130px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 12px;
+    width: 180px;
+    right: 10px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 173px;
+    left: 20px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 390px;
+    position: relative;
+    top: 250px;
+    left: 19px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 450px;
+    left: 50px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 50px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 500px;
+    left: 50px;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 50px;
+    bottom: 0;
+    top: 550px;
+    width: 300px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 170px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 50px;
+    float: left;
+    top: 650px;
+  }
+
+  .middle-winter2 {
+    width: 260px;
+    float: left;
+    position: relative;
+    left: 90px;
+    bottom: 0;
+    top: 600px;
+  }
+
+  .middle-winter3 {
+    width: 170px;
+    float: left;
+    position: relative;
+    left: 160px;
+    top: 630px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 425px;
+    position: relative;
+    bottom: 0;
+    top: 600px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 425px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 1180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .winter {
+    float: left;
+    position: relative;
+    left: 180px;
+    width: 250px;
+    top: 0;
+    margin-top: 0;
+  }
+
+  .winter-image {
+    width: 250px;
+    margin-left: 0;
+  }
+
+  .winter p {
+    color: #a4c1d7;/*#a4c1d7 smoke blue*/
+    width: 250px;
+    height: 250px;
+    font-style: $font-style;
+    position: absolute;
+    top: 0;
+    padding-top: 180px;
+    padding-left: 65px;
+    margin-bottom: 0;
+    font-size: 45px;
+    opacity: 0;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 290px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 16px;
+    width: 220px;
+    right: 14px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 166px;
+    left: 136px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 500px;
+    position: relative;
+    top: 250px;
+    left: 145px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 450px;
+    left: 90px;
+    right: 100px;
+    width: 250px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 440px;
+    width: 250px;
+    top: 132px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 90px;
+    width: 250px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 440px;
+    bottom: 206px;
+    width: 250px;
+    top: -205px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 170px;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: 90px;
+    float: left;
+    top: -75px;
+  }
+
+  .middle-winter2 {
+    width: 260px;
+    float: left;
+    position: relative;
+    left: 100px;
+    top: -50px;
+    bottom: 100px;
+  }
+
+  .middle-winter3 {
+    width: 170px;
+    float: left;
+    position: relative;
+    left: 110px;
+    top: 190px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 768px;
+    position: relative;
+    top: -110px;
+    bottom: 180px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 768px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .winter {
+    float: left;
+    position: relative;
+    left: 287px;
+    width: 280px;
+    top: 0;
+    margin-top: 0;
+  }
+
+  .winter-image {
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .winter p {
+    color: #a4c1d7;/*#a4c1d7 smoke blue*/
+    width: 280px;
+    font-style: $font-style;
+    position: absolute;
+    height: 280px;
+    top: 0;
+    padding-top: 185px;
+    padding-left: 80px;
+    margin-bottom: 0;
+    font-size: 45px;
+    opacity: 0;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 385px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 80px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 18px;
+    width: 246px;
+    right: 15px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 165px;
+    left: 143px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 700px;
+    position: relative;
+    top: 250px;
+    left: 145px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 500px;
+    left: 100px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 545px;
+    width: 300px;
+    top: 131px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 100px;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 545px;
+    bottom: 255px;
+    width: 300px;
+    top: -255px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 250px;
+    color: white;
+    position: relative;
+    top: -150px;
+    bottom: 60px;
+    left: 115px;
+    float: left;
+  }
+
+  .middle-winter2 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 129px;
+    top: -100px;
+    bottom: 100px;
+  }
+
+  .middle-winter3 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 145px;
+    top: 150px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 992px;
+    position: relative;
+    top: -200px;
+    bottom: 180px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 992px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 240px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .winter {
+    float: left;
+    position: relative;
+    left: 250px;
+    width: 320px;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+  }
+
+  .winter-image {
+    width: 320px;
+    margin-left: 0;
+  }
+
+  .winter p {
+    color: #a4c1d7;/*#a4c1d7 smoke blue*/
+    width: 320px;
+    font-style: $font-style;
+    position: absolute;
+    height: 320px;
+    top: 0;
+    padding-top: 200px;
+    padding-left: 95px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 0;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 400px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 286px;
+    right: 21px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 161px;
+    left: 171px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 700px;
+    position: relative;
+    top: 250px;
+    left: 175px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 500px;
+    left: 130px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 585px;
+    width: 300px;
+    top: 131px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 130px;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 585px;
+    bottom: 255px;
+    width: 300px;
+    top: -255px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 250px;
+    color: white;
+    position: relative;
+    top: -150px;
+    bottom: 60px;
+    left: 115px;
+    float: left;
+  }
+
+  .middle-winter2 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 129px;
+    top: -100px;
+    bottom: 100px;
+  }
+
+  .middle-winter3 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 145px;
+    top: 150px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1024px;
+    position: relative;
+    top: -200px;
+    bottom: 180px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 1024px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 240px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .winter {
+    float: left;
+    margin: 0;
+    position: relative;
+    left: 365px;
+    width: 320px;
+    top: 0;
+    right: 0;
+  }
+
+  .winter-image {
+    width: 320px;
+    margin-left: 0;
+  }
+
+  .winter p {
+    color: #a4c1d7;/*#a4c1d7 smoke blue*/
+    width: 320px;
+    font-style: $font-style;
+    position: absolute;
+    height: 320px;
+    top: 0;
+    padding-top: 210px;
+    padding-left: 90px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 0;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 492px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 286px;
+    right: 21px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 161px;
+    left: 208px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 800px;
+    position: relative;
+    top: 250px;
+    left: 225px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 500px;
+    left: 165px;
+    right: 100px;
+    width: 320px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 721px;
+    width: 320px;
+    top: 110px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 167px;
+    width: 320px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 720px;
+    bottom: 275px;
+    width: 320px;
+    top: -275px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 280px;
+    color: white;
+    position: relative;
+    top: -150px;
+    bottom: 60px;
+    left: 130px;
+    float: left;
+  }
+
+  .middle-winter2 {
+    width: 370px;
+    float: left;
+    position: relative;
+    left: 150px;
+    top: -100px;
+    bottom: 100px;
+  }
+
+  .middle-winter3 {
+    width: 340px;
+    float: left;
+    position: relative;
+    left: 170px;
+    top: 200px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1200px;
+    position: relative;
+    bottom: 180px;
+    top: -200px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 1200px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 340px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .winter {
+    float: left;
+    margin-top: 0;
+    position: relative;
+    left: 380px;
+    width: 350px;
+    right: 0;
+    top: 0;
+  }
+
+  .winter-image {
+    width: 350px;
+    margin-left: 0;
+  }
+
+  .winter p {
+    color: #a4c1d7;/*#a4c1d7 smoke blue*/
+    width: 350px;
+    font-style: $font-style;
+    position: absolute;
+    height: 350px;
+    top: 0;
+    padding-top: 210px;
+    padding-left: 102px;
+    margin-bottom: 0;
+    font-size: 60px;
+    opacity: 0;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 520px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    width: 0;
+    margin: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 286px;
+    right: 21px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 161px;
+    left: 237px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 800px;
+    position: relative;
+    top: 250px;
+    left: 240px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 500px;
+    left: 165px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 721px;
+    width: 400px;
+    top: 30px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 167px;
+    width: 400px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 720px;
+    bottom: 355px;
+    width: 400px;
+    top: -355px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 300px;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    top: -150px;
+    left: 140px;
+    float: left;
+  }
+
+  .middle-winter2 {
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 165px;
+    top: -100px;
+    bottom: 100px;
+  }
+
+  .middle-winter3 {
+    width: 360px;
+    float: left;
+    position: relative;
+    left: 190px;
+    top: 200px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1280px;
+    position: relative;
+    bottom: 180px;
+    top: -200px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 1280px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 430px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .winter {
+    float: left;
+    position: relative;
+    left: 420px;
+    width: 400px;
+    top: 0;
+    margin-top: 0;
+    right: 0;
+  }
+
+  .winter-image {
+    width: 400px;
+  }
+
+  .winter p {
+    color: #a4c1d7;/*#a4c1d7 smoke blue*/
+    width: 400px;
+    font-style: $font-style;
+    position: absolute;
+    height: 400px;
+    top: 0;
+    padding-top: 235px;
+    padding-left: 125px;
+    margin-bottom: 0;
+    font-size: 60px;
+    opacity: 0;
+  }
+
+  .winter p:hover{
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .winter a:hover{ /*winter link hover*/
+    color:  #a4c1d7;
+    opacity: 0.75;
+  }
+
+  .winter-title {
+    position: relative;
+    top: 200px;
+    left: 595px;
+    width: 0;
+  }
+
+  .winter-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #a4c1d7; /*#a4c1d7 smoke blue*/
+    font-family: -webkit-pictograph;
+    margin: 0;
+    width: 0;
+  }
+
+  .winter-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 270px;
+    right: 15px;
+  }
+
+  .winter-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    left: 315px;
+    text-align: center;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .winter-title-img {
+    width: 800px;
+    position: relative;
+    top: 250px;
+    left: 320px;
+  }
+
+  .winter-cord1 {
+    position: relative;
+    top: 500px;
+    left: 200px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .winter-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord2 {
+    position: relative;
+    left: 820px;
+    width: 400px;
+    top: 30px;
+  }
+
+  .winter-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 200px;
+    width: 400px;
+    margin-top: 100px;
+  }
+
+  .winter-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .winter-cord4 {
+    position: relative;
+    left: 820px;
+    top: -354px;
+    bottom: 355px;
+    width: 400px;
+  }
+
+  .winter-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-winter1 {
+    /*background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    height: 200px;
+    width: 300px;
+    color: white;
+    position: relative;
+    top: -150px;
+    bottom: 60px;
+    left: 160px;
+    float: left;
+  }
+
+  .middle-winter2 {
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 210px;
+    top: -100px;
+    bottom: 100px;
+  }
+
+  .middle-winter3 {
+    width: 380px;
+    float: left;
+    position: relative;
+    left: 270px;
+    top: 200px;
+  }
+
+  .winter-styles-top h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1440px;
+    position: relative;
+    bottom: 180px;
+    top: -200px;
+    right: 15px;
+    margin-bottom: 200px;
+  }
+
+  .winter-styles-top h3 {
+    border-bottom: solid 1px darkgray;
+    width: 1440px;
+    position: relative;
+    bottom: 150px;
+    right: 15px;
+    top: 390px;
+  }
+}

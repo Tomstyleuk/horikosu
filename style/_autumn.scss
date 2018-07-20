@@ -1,0 +1,2466 @@
+/*top page autumn image*/
+.seasonal-2 {
+  display: flex;
+  position: relative;
+  top: 790px;
+}
+
+.autumn {
+  float: left;
+  position: relative;
+  left: 200px;
+}
+
+.autumn p {
+  color: #ff3300;
+  position: absolute;
+  font-style: $font-style;
+  width: 400px;
+  height: 400px;
+  padding-top: 200px;
+  padding-left: 144px;
+  margin-bottom: 0;
+  font-size: 50px;
+  opacity: 0;
+}
+
+.autumn p:hover{
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease-in-out;
+}
+
+/*tpo page autumn image*/
+
+
+/*index4-html autumn-page*/
+
+.autumn-title {
+  position: relative;
+  top: 200px;
+  left: 580px;
+}
+
+.autumn-title h1 {
+  font-size: 90px;
+  font-style: $font-style;
+  color: #6a1917; /*#6a1917 maroon*/
+  font-family: -webkit-pictograph;
+}
+
+.autumn-title p{
+  border-bottom: solid 1px $border-color;
+  position: relative;
+  bottom: 23px;
+  width: 325px;
+  right: 22px;
+}
+
+.autumn-title-comment p{
+  text-decoration: none;
+  position: relative;
+  top: 167px;
+  left: 640px;
+  color: $border-color;
+  font-style: oblique;
+  font-family: -webkit-pictograph;
+}
+
+.Autumn-title-img {
+  width: 800px;
+  position: relative;
+  top: 250px;
+  left: 320px;
+}
+
+.autumn-cord1 {
+  position: relative;
+  top: 500px;
+  left: 200px;
+  right: 100px;
+  width: 400px;
+}
+
+.autumn-cord1 p{
+  color: darkgray;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.autumn-cord2 {
+  position: relative;
+  left: 820px;
+  width: 400px;
+  top: 15px;
+}
+
+.autumn-cord2 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.autumn-cord3 {
+  position: relative;
+  right: 100px;
+  top: 115px;
+  left: 200px;
+  width: 400px;
+}
+
+.autumn-cord3 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.autumn-cord4 {
+  position: relative;
+  left: 820px;
+  bottom: 355px;
+  width: 400px;
+}
+
+.autumn-cord4 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.middle-autumn {
+  background-image: url(../big-photos/shop-img3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 160px;
+  float: left;
+}
+
+.autumn-cord5{
+  width: 500px;
+  float: left;
+  position: relative;
+  left: 240px;
+  bottom: 100px;
+}
+
+.autumn-cord5 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.autumn-cord5 h2 {
+  border-bottom: solid 1px $border-color;
+  width: 1440px;
+  position: relative;
+  bottom: 0;
+  right: 855px;
+  top: 100px;
+  margin-bottom: 200px;
+}
+
+.autumn-cord6 {
+  width: 380px;
+  float: left;
+  position: relative;
+  left: 420px;
+}
+
+.autumn-cord6 p {
+  color: $border-color;
+  font-size: 15px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+@media (min-width: 320px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 250px;
+  }
+
+  .autumn-image {
+    width: 250px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 40px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .autumn p:hover{
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-page a{
+    color: #e5a323;
+  }
+
+  .autumn a{
+    color: #e5a323;
+  }
+
+  .autumn a:hover{ /*summer link hover*/
+    color: #e5a323;
+    opacity: 0.75;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 65px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 238px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 162px;
+    width: 160px;
+    left: 86px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 290px;
+    position: relative;
+    top: 250px;
+    left: 15px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 450px;
+    left: 23px;
+    right: 100px;
+    width: 250px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 23px;
+    width: 250px;
+    top: 500px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 550px;
+    left: 23px;
+    width: 250px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 23px;
+    bottom: 0;
+    width: 250px;
+    top: 650px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 290px;
+    color: white;
+    position: relative;
+    /* bottom: 10px; */
+    left: 0;
+    float: left;
+    top: 800px;
+  }
+
+  .autumn-cord5{
+    width: 290px;
+    float: left;
+    position: relative;
+    left: 1px;
+    bottom: 0;
+    top: 900px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 320px;
+    position: relative;
+    bottom: 0;
+    right: 15px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 360px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 16px;
+    top: 250px;
+  }
+
+  .autumn-image {
+    width: 300px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .autumn p:hover{
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-page a{
+    color: #e5a323;
+  }
+
+  .autumn a{
+    color: #e5a323;
+  }
+
+  .autumn a:hover{ /*summer link hover*/
+    color: #e5a323;
+    opacity: 0.75;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 80px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 238px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 162px;
+    width: 160px;
+    left: 105px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 330px;
+    position: relative;
+    top: 250px;
+    left: 16px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 450px;
+    left: 17px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 17px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 550px;
+    left: 17px;
+    width: 300px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 17px;
+    bottom: 0;
+    width: 300px;
+    top: 650px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 330px;
+    color: white;
+    position: relative;
+    /* bottom: 10px; */
+    left: 1px;
+    float: left;
+    top: 800px;
+  }
+
+  .autumn-cord5{
+    width: 320px;
+    float: left;
+    position: relative;
+    left: 7px;
+    bottom: 0;
+    top: 900px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 360px;
+    position: relative;
+    bottom: 0;
+    right: 22px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 375px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 250px;
+  }
+
+  .autumn-image {
+    width: 300px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .autumn p:hover{
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-page a{
+    color: #e5a323;
+  }
+
+  .autumn a{
+    color: #e5a323;
+  }
+
+  .autumn a:hover{ /*summer link hover*/
+    color: #e5a323;
+    opacity: 0.75;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 95px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 238px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 162px;
+    width: 160px;
+    left: 115px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 350px;
+     position: relative;
+     top: 250px;
+     left: 14px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 450px;
+    left: 25px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 25px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 550px;
+    left: 25px;
+    width: 300px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 25px;
+    bottom: 0;
+    width: 300px;
+    top: 650px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 350px;
+    color: white;
+    position: relative;
+    /* bottom: 10px; */
+    left: -3px;
+    float: left;
+    top: 800px;
+  }
+
+  .autumn-cord5{
+    width: 330px;
+    float: left;
+    position: relative;
+    left: 8px;
+    bottom: 0;
+    top: 900px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 375px;
+    position: relative;
+    bottom: 0;
+    right: 23px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 411px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 42px;
+    top: 250px;
+  }
+
+  .autumn-image {
+    width: 300px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .autumn p:hover{
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-page a{
+    color: #e5a323;
+  }
+
+  .autumn a{
+    color: #e5a323;
+  }
+
+  .autumn a:hover{ /*summer link hover*/
+    color: #e5a323;
+    opacity: 0.75;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 110px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 238px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 162px;
+    width: 160px;
+    left: 130px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 380px;
+    position: relative;
+    top: 250px;
+    left: 15px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 450px;
+    left: 45px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 45px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 550px;
+    left: 45px;
+    width: 300px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 45px;
+    bottom: 0;
+    width: 300px;
+    top: 650px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 380px;
+    color: white;
+    position: relative;
+    /* bottom: 10px; */
+    left: 0;
+    float: left;
+    top: 800px;
+  }
+
+  .autumn-cord5{
+    width: 330px;
+    float: left;
+    position: relative;
+    left: 36px;
+    bottom: 0;
+    top: 900px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 411px;
+    position: relative;
+    bottom: 0;
+    right: 51px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 425px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 250px;
+  }
+
+  .autumn-image {
+    width: 300px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .autumn p:hover{
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-page a{
+    color: #e5a323;
+  }
+
+  .autumn a{
+    color: #e5a323;
+  }
+
+  .autumn a:hover{ /*summer link hover*/
+    color: #e5a323;
+    opacity: 0.75;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 120px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 238px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 162px;
+    width: 160px;
+    left: 140px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 380px;
+    position: relative;
+    top: 250px;
+    left: 24px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 450px;
+    left: 51px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 51px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 550px;
+    left: 51px;
+    width: 300px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 51px;
+    bottom: 0;
+    width: 300px;
+    top: 650px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 380px;
+    color: white;
+    position: relative;
+    /* bottom: 10px; */
+    left: 10px;
+    float: left;
+    top: 800px;
+  }
+
+  .autumn-cord5{
+    width: 330px;
+    float: left;
+    position: relative;
+    left: 36px;
+    bottom: 0;
+    top: 900px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 425px;
+    position: relative;
+    bottom: 0;
+    right: 51px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 768px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 100px;
+    width: 250px;
+    top: 0;
+  }
+
+  .autumn-image {
+    width: 250px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    padding-top: 90px;
+    padding-left: 45px;
+    margin-bottom: 0;
+    font-size: 45px;
+    opacity: 0;
+  }
+
+  .autumn p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 275px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 258px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 162px;
+    width: 160px;
+    left: 309px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 500px;
+    position: relative;
+    top: 250px;
+    left: 145px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 450px;
+    left: 100px;
+    right: 100px;
+    width: 250px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 430px;
+    width: 250px;
+    top: 112px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 210px;
+    left: 100px;
+    width: 250px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 432px;
+    bottom: 111px;
+    width: 250px;
+    top: -111px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 550px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+    float: left;
+    top: 10px;
+  }
+
+  .autumn-cord5{
+    width: 350px;
+    float: left;
+    position: relative;
+    left: 205px;
+    bottom: 0;
+    top: 140px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 768px;
+    position: relative;
+    bottom: 0;
+    right: 220px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+
+  .autumn-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 992px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+    width: 992px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 130px;
+    width: 280px;
+    top: 0;
+  }
+
+  .autumn-image {
+    width: 280px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 280px;
+    height: 280px;
+    top: 0;
+    padding-top: 95px;
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 45px;
+    opacity: 0;
+  }
+
+  .autumn p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 364px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 80px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 280px;
+    right: 20px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    width: 160px;
+    left: 411px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 750px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 500px;
+    left: 100px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 540px;
+    width: 300px;
+    top: 112px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 210px;
+    left: 100px;
+    width: 300px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 540px;
+    bottom: 160px;
+    width: 300px;
+    top: -160px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+    float: left;
+    top: -50px;
+  }
+
+  .autumn-cord5{
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 134px;
+    bottom: 10px;
+    top: -50px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 992px;
+    position: relative;
+    bottom: 0;
+    right: 549px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1024px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+    width: 1024px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 130px;
+    width: 320px;
+    top: 0;
+  }
+
+  .autumn-image {
+    width: 320px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 320px;
+    height: 320px;
+    top: 0;
+    padding-top: 110px;
+    padding-left: 70px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 0;
+  }
+
+  .autumn p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 380px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    width: 160px;
+    left: 442px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 650px;
+    position: relative;
+    top: 250px;
+    left: 191px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 500px;
+    left: 160px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 580px;
+    width: 300px;
+    top: 112px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 210px;
+    left: 160px;
+    width: 300px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 580px;
+    bottom: 160px;
+    width: 300px;
+    top: -160px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 140px;
+    float: left;
+    top: -50px;
+  }
+
+  .autumn-cord5{
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 179px;
+    bottom: 10px;
+    top: -50px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1024px;
+    position: relative;
+    bottom: 0;
+    right: 594px;
+    top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1200px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+    width: 1200px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 175px;
+    width: 320px;
+    top: 0;
+  }
+
+  .autumn-image {
+    width: 320px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 320px;
+    height: 320px;
+    top: 0;
+    padding-top: 120px;
+    padding-left: 70px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 0;
+  }
+
+  .autumn p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 470px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    width: 160px;
+    left: 532px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 800px;
+    position: relative;
+    top: 250px;
+    left: 210px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 500px;
+    left: 200px;
+    right: 100px;
+    width: 320px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 720px;
+    width: 320px;
+    top: 92px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 210px;
+    left: 200px;
+    width: 320px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 720px;
+    bottom: 180px;
+    top: -180px;
+    width: 320px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 140px;
+    float: left;
+    top: -10px;
+  }
+
+  .autumn-cord5{
+    width: 440px;
+    float: left;
+    position: relative;
+    left: 199px;
+    bottom: 10px;
+    top: -10px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1200px;
+    position: relative;
+    bottom: 0;
+    right: 714px;
+    top: 250px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 320px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1280px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+    width: 1280px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 190px;
+    width: 350px;
+    top: 0;
+  }
+
+  .autumn-image {
+    width: 350px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 350px;
+    height: 350px;
+    top: 0;
+    padding-top: 120px;
+    padding-left: 70px;
+    margin-bottom: 0;
+    font-size: 60px;
+    opacity: 0;
+  }
+
+  .autumn p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    width: 10px;
+    left: 495px;
+    margin: 0;
+  }
+
+  .autumn-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    width: 160px;
+    left: 557px;
+    color: darkgray;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    margin: 0;
+  }
+
+  .Autumn-title-img {
+    width: 800px;
+    position: relative;
+    top: 250px;
+    left: 235px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 500px;
+    left: 140px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 720px;
+    width: 400px;
+    top: 15px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 140px;
+    width: 400px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    position: relative;
+    left: 720px;
+    top: -354px;
+    bottom: 355px;
+    width: 400px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 140px;
+    top: -150px;
+    float: left;
+  }
+
+  .autumn-cord5{
+    width: 500px;
+    float: left;
+    position: relative;
+    left: 225px;
+    bottom: 100px;
+    top: -150px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1280px;
+    position: relative;
+    bottom: 0;
+    right: 740px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 380px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1440px) {
+  .seasonal-2 {
+    display: flex;
+    position: relative;
+    top: 790px;
+    width: 1440px;
+  }
+
+  .autumn {
+    float: left;
+    position: relative;
+    left: 210px;
+    width: 400px;
+    top: 0;
+  }
+
+  .autumn-image {
+    width: 400px;
+  }
+
+  .autumn p {
+    color: #ff3300;
+    position: absolute;
+    font-style: $font-style;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    padding-top: 145px;
+    padding-left: 111px;
+    margin-bottom: 0;
+    font-size: 60px;
+    opacity: 0;
+  }
+
+  .autumn p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+
+  /*index4-html autumn-page*/
+
+  .autumn-title {
+    position: relative;
+    top: 200px;
+    left: 580px;
+  }
+
+  .autumn-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: #6a1917; /*#6a1917 maroon*/
+    font-family: -webkit-pictograph;
+  }
+
+  .autumn-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .autumn-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    left: 640px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .Autumn-title-img {
+    width: 800px;
+    position: relative;
+    top: 250px;
+    left: 320px;
+  }
+
+  .autumn-cord1 {
+    position: relative;
+    top: 500px;
+    left: 200px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .autumn-cord1 p{
+    color: darkgray;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord2 {
+    position: relative;
+    left: 820px;
+    width: 400px;
+    top: 15px;
+  }
+
+  .autumn-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 200px;
+    width: 400px;
+  }
+
+  .autumn-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord4 {
+    top: -354px;
+    position: relative;
+    left: 820px;
+    bottom: 0;
+    width: 400px;
+  }
+
+  .autumn-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-autumn {
+    background-image: url(../big-photos/shop-img3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 160px;
+    float: left;
+    top: -150px;
+  }
+
+  .autumn-cord5{
+    width: 500px;
+    float: left;
+    position: relative;
+    left: 240px;
+    bottom: 100px;
+    top: -150px;
+  }
+
+  .autumn-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .autumn-cord5 h2 {
+    border-bottom: solid 1px $border-color;
+    width: 1440px;
+    position: relative;
+    bottom: 0;
+    right: 855px;
+    top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .autumn-cord6 {
+    width: 380px;
+    float: left;
+    position: relative;
+    left: 420px;
+  }
+
+  .autumn-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}

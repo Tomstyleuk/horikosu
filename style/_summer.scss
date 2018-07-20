@@ -1,0 +1,2624 @@
+/*top page summer image*/
+
+.summer {
+  float: left;
+  position: relative;
+  left: 400px;
+}
+
+.summer p {
+  color: yellow;
+  position: absolute;
+  font-style: $font-style;
+  width: 400px;
+  height: 400px;
+  padding-top: 150px;
+  padding-left: 115px;
+  margin-bottom: 0;
+  font-size: 50px;
+  opacity: 0;
+}
+
+.summer p:hover{
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease-in-out;
+}
+
+/*top page summer image*/
+
+
+/*index-3.html summer-page*/
+
+.summer-title {
+  position: relative;
+  top: 200px;
+  left: 580px;
+}
+
+.summer-title h1 {
+  font-size: 90px;
+  font-style: $font-style;
+  color: yellow;
+  font-family: -webkit-pictograph;
+}
+
+.summer-title p{
+  border-bottom: solid 1px $border-color;
+  position: relative;
+  bottom: 23px;
+  width: 325px;
+  right: 22px;
+}
+
+.summer-title-comment p{
+  text-decoration: none;
+  position: relative;
+  top: 167px;
+  left: 640px;
+  color: $border-color;
+  font-style: oblique;
+  font-family: -webkit-pictograph;
+}
+
+.summer-cord1 {
+  position: relative;
+  top: 500px;
+  left: 200px;
+  right: 100px;
+  width: 400px;
+}
+
+.summer-cord1 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.summer-cord2 {
+  position: relative;
+  left: 820px;
+  width: 400px;
+  top: 30px;
+}
+
+.summer-cord2 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.summer-cord3 {
+  position: relative;
+  right: 100px;
+  top: 115px;
+  left: 200px;
+  width: 400px;
+}
+
+.summer-cord3 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.summer-cord4 {
+  position: relative;
+  left: 820px;
+  bottom: 337px;
+  width: 400px;
+}
+
+.summer-cord4 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.middle-summer {
+  background-image: url(../big-photos/braun.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  color: white;
+  position: relative;
+  bottom: 200px;
+  left: 199px;
+}
+
+.summer-cord5{
+  width: 400px;
+  float: left;
+  position: relative;
+  left: 200px;
+}
+
+.summer-cord5 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.summer-cord6 {
+  width: 380px;
+  float: left;
+  position: relative;
+  left: 420px;
+}
+
+.summer-cord6 p {
+  color: $border-color;
+  font-size: 15px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.summer-cord7 {
+  width: 400px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+.summer-cord7 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.summer-cord8 {
+  width: 400px;
+  position: relative;
+  left: 820px;
+  bottom: 355px;
+}
+
+.summer-cord8 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+/*summer page responsive*/
+
+@media (min-width: 320px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 20px;
+    width: 250px;
+    top: 250px;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 30px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .summer p:hover{
+    color: yellow;
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .summer-page a{
+    color: yellow;
+  }
+
+  .summer a{
+    color: yellow;
+  }
+
+  .summer a:hover{ /*summer link hover*/
+    color: yellow;
+    opacity: 0.75;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 60px;
+  }
+
+  .summer-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 237px;
+    right: 13px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 154px;
+    top: 163px;
+    left: 89px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 20px;
+    /* right: 100px; */
+    width: 250px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 20px;
+    width: 250px;
+    top: 500px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    top: 600px;
+    left: 20px;
+    width: 250px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 20px;
+    width: 250px;
+    bottom: 131px;
+    top: 700px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 290px;
+    color: white;
+    position: relative;
+    top: 800px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .middle-summer p {
+    position: initial;
+    /* left: 700px; */
+    color: $middle-summer;
+    font-size: 60px;
+    width: 127px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 1000px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 1000px;
+    margin-top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 250px;
+    position: relative;
+    left: 20px;
+    top: 1100px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 250px;
+    position: inherit;
+    left: 20px;
+    bottom: 0;
+    top: 1000px;
+    margin-top: 200px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 360px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 16px;
+    width: 300px;
+    top: 250px;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .summer p:hover{
+    color: yellow;
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .summer-page a{
+    color: yellow;
+  }
+
+  .summer a{
+    color: yellow;
+  }
+
+  .summer a:hover{ /*summer link hover*/
+    color: yellow;
+    opacity: 0.75;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 79PX;
+  }
+
+  .summer-title h1 {
+    font-size: 65px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 240px;
+    right: 20px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 154px;
+    top: 167px;
+    left: 107px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 17px;
+    /* right: 100px; */
+    width: 300px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 17px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    top: 600px;
+    left: 17px;
+    width: 300px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 17px;
+    width: 300px;
+    bottom: 131px;
+    top: 700px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 370px;
+    width: 330px;
+    color: white;
+    position: relative;
+    top: 800px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .middle-summer p {
+    position: initial;
+    /* left: 700px; */
+    color: $middle-summer;
+    font-size: 60px;
+    width: 127px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 17px;
+    top: 1000px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 17px;
+    top: 1000px;
+    margin-top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 300px;
+    position: relative;
+    left: 17px;
+    top: 1100px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 300px;
+    position: inherit;
+    left: 17px;
+    bottom: 0;
+    top: 1000px;
+    margin-top: 200px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 375px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 25px;
+    width: 300px;
+    top: 250px;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .summer p:hover{
+    color: yellow;
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .summer-page a{
+    color: yellow;
+  }
+
+  .summer a{
+    color: yellow;
+  }
+
+  .summer a:hover{ /*summer link hover*/
+    color: yellow;
+    opacity: 0.75;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 79PX;
+  }
+
+  .summer-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 260px;
+    right: 18px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 154px;
+    top: 167px;
+    left: 113px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 25px;
+    /* right: 100px; */
+    width: 300px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 25px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    top: 600px;
+    left: 25px;
+    width: 300px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 25px;
+    width: 300px;
+    bottom: 131px;
+    top: 700px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 350px;
+    color: white;
+    position: relative;
+    top: 800px;
+    bottom: 0;
+    left: -2px;
+    margin: 0;
+  }
+
+  .middle-summer p {
+    position: initial;
+    /* left: 700px; */
+    color: $middle-summer;
+    font-size: 60px;
+    width: 127px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 1000px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 1000px;
+    margin-top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 300px;
+    position: relative;
+    left: 25px;
+    top: 1100px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 300px;
+    position: inherit;
+    left: 25px;
+    bottom: 0;
+    top: 1000px;
+    margin-top: 200px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 411px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 42px;
+    width: 300px;
+    top: 250px;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .summer p:hover{
+    color: yellow;
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .summer-page a{
+    color: yellow;
+  }
+
+  .summer a{
+    color: yellow;
+  }
+
+  .summer a:hover{ /*summer link hover*/
+    color: yellow;
+    opacity: 0.75;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 97px;
+  }
+
+  .summer-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 272px;
+    right: 21px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 154px;
+    top: 167px;
+    left: 130px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 42px;
+    /* right: 100px; */
+    width: 300px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 42px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    top: 600px;
+    left: 42px;
+    width: 300px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 42px;
+    width: 300px;
+    bottom: 131px;
+    top: 700px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 385px;
+    color: white;
+    position: relative;
+    top: 800px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .middle-summer p {
+    position: initial;
+    /* left: 700px; */
+    color: $middle-summer;
+    font-size: 60px;
+    width: 127px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 42px;
+    top: 1000px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 42px;
+    top: 1000px;
+    margin-top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 300px;
+    position: relative;
+    left: 42px;
+    top: 1100px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 300px;
+    position: inherit;
+    left: 42px;
+    bottom: 0;
+    top: 1000px;
+    margin-top: 200px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 425px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 50px;
+    width: 300px;
+    top: 250px;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 0;
+    height: 0;
+    top: -100px;
+    padding-top: 0;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  .summer p:hover{
+    color: yellow;
+    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .summer-page a{
+    color: yellow;
+  }
+
+  .summer a{
+    color: yellow;
+  }
+
+  .summer a:hover{ /*summer link hover*/
+    color: yellow;
+    opacity: 0.75;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 105px;
+  }
+
+  .summer-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 276px;
+    right: 22px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 154px;
+    top: 167px;
+    left: 145px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 53px;
+    /* right: 100px; */
+    width: 300px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 53px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    top: 600px;
+    left: 53px;
+    width: 300px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 53px;
+    width: 300px;
+    bottom: 131px;
+    top: 700px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 398px;
+    color: white;
+    position: relative;
+    top: 800px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .middle-summer p {
+    position: initial;
+    /* left: 700px; */
+    color: $middle-summer;
+    font-size: 60px;
+    width: 127px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 53px;
+    top: 1000px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 53px;
+    top: 1000px;
+    margin-top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 300px;
+    position: relative;
+    left: 53px;
+    top: 1100px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 300px;
+    position: inherit;
+    left: 53px;
+    bottom: 0;
+    top: 1000px;
+    margin-top: 200px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .summer {
+    float: left;
+    position: relative;
+    left: 180px;
+    width: 250px;
+    top: 0;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    padding-top: 90px;
+    padding-left: 40px;
+    margin-bottom: 0;
+    font-size: 45px;
+    opacity: 0;
+  }
+
+  .summer p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 267PX;
+  }
+
+  .summer-title h1 {
+    font-size: 75px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 280px;
+    right: 22px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    left: 315px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 112px;
+    right: 100px;
+    width: 250px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 430px;
+    width: 250px;
+    top: 81px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    right: 100px;
+    top: 172px;
+    left: 112px;
+    width: 250px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 430px;
+    bottom: 131px;
+    width: 250px;
+    top: -130px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 540px;
+    color: white;
+    position: relative;
+    /* bottom: 0; */
+    left: 111px;
+    margin: 0;
+    top: 0;
+  }
+
+  .middle-summer p {
+    position: initial;
+    /*left: 700px;*/
+    color: $middle-summer;
+    font-size: 60px;
+    width: 127px;
+    top: 100px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 112px;
+    top: 200px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 180px;
+    top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 250px;
+    position: relative;
+    left: 111px;
+    top: 180px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 250px;
+    position: relative;
+    left: 430px;
+    bottom: 0;
+    top: -306px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 992px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 287px;
+    width: 280px;
+    top: 0;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    top: 0;
+    width: 280px;
+    height: 280px;
+    padding-top: 90px;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-size: 45px;
+    opacity: 0;
+  }
+
+  .summer p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 368px;
+  }
+
+  .summer-title h1 {
+    font-size: 80px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 300px;
+    right: 22px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 163px;
+    left: 420px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 90px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 560px;
+    width: 300px;
+    top: 30px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    right: 100px;
+    top: 172px;
+    left: 90px;
+    width: 300px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 560px;
+    bottom: 180px;
+    width: 300px;
+    top: -180px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 900px;
+    color: white;
+    position: relative;
+    /* bottom: 0; */
+    left: 26px;
+    /* margin: 0; */
+    top: 0;
+  }
+
+  .middle-summer p {
+    position: relative;
+    /* left: 683px; */
+    color: $middle-summer;
+    left: 620px;
+    font-size: 70px;
+    width: 0;
+    top: 100px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 90px;
+    top: 200px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 260px;
+    top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 300px;
+    position: relative;
+    left: 90px;
+    top: 200px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 300px;
+    position: relative;
+    left: 560px;
+    bottom: 0;
+    top: -337px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1024px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 250px;
+    width: 320px;
+    top: 0;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    top: 0;
+    width: 320px;
+    height: 320px;
+    padding-top: 110px;
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 0;
+  }
+
+  .summer p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 368px;
+  }
+
+  .summer-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    left: 435px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 401px;
+    left: 150px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 590px;
+    width: 300px;
+    top: 30px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    right: 100px;
+    top: 172px;
+    left: 147px;
+    width: 300px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 590px;
+    bottom: 180px;
+    width: 300px;
+    top: -180px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 590px;
+    color: white;
+    position: relative;
+    /* bottom: 0; */
+    left: 100px;
+    /* margin: 0; */
+    top: 0;
+  }
+
+  .middle-summer p {
+    position: relative;
+    color: $middle-summer;
+    left: 630px;
+    font-size: 60px;
+    width: 0;
+    top: 100px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 147px;
+    top: 200px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 290px;
+    top: 100px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 300px;
+    position: relative;
+    left: 149px;
+    top: 200px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 300px;
+    position: relative;
+    left: 590px;
+    bottom: 0;
+    top: -337px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1200px) {
+  .summer {
+    float: left;
+    position: relative;
+    left: 365px;
+    width: 320px;
+    top: 0;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 320px;
+    height: 320px;
+    top: 0;
+    padding-top: 110px;
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 50px;
+    opacity: 0;
+  }
+
+  .summer p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 456px;
+  }
+
+  .summer-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    left: 516px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 422px;
+    left: 160px;
+    right: 100px;
+    width: 320px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 690px;
+    width: 320px;
+    top: 30px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    right: 100px;
+    top: 172px;
+    left: 160px;
+    width: 320px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 690px;
+    bottom: 200px;
+    top: -200px;
+    width: 320px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 130px;
+    margin: 0;
+  }
+
+  .middle-summer p {
+    margin: 0;
+    position: relative;
+    left: 694px;
+    color: darkorange;
+    font-size: 70px;
+    width: 0;
+    top: 100px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 320px;
+    float: left;
+    position: relative;
+    left: 159px;
+    top: 200px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 320px;
+    float: left;
+    position: relative;
+    left: 370px;
+    top: 200px;
+    margin-top: -1px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 320px;
+    position: relative;
+    left: 159px;
+    top: 300px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    top: 0;
+    width: 320px;
+    position: relative;
+    left: 690px;
+    bottom: 72px;
+    margin-top: -72px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .summer {
+    float: left;
+    position: relative;
+    left: 380px;
+    width: 350px;
+    top: 0;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 350px;
+    height: 350px;
+    top: 0;
+    padding-top: 130px;
+    padding-left: 55px;
+    margin-bottom: 0;
+    font-size: 60px;
+    opacity: 0;
+  }
+
+  .summer p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 490px;
+  }
+
+  .summer-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    left: 555px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 500px;
+    left: 140px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 720px;
+    width: 400px;
+    top: 30px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 140px;
+    width: 400px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 720px;
+    bottom: 337px;
+    width: 400px;
+    top: -337px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    color: white;
+    position: relative;
+    left: 140px;
+    top: -150px;
+    margin: 0;
+  }
+
+  .middle-summer p {
+    position: relative;
+    left: 700px;
+    color: $middle-summer;
+    font-size: 80px;
+    width: 127px;
+    top: 100px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 140px;
+    top: 100px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 380px;
+    float: left;
+    position: relative;
+    left: 320px;
+    top: 101px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 400px;
+    position: relative;
+    left: 140px;
+    top: 200px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 400px;
+    top: 100px;
+    position: relative;
+    left: 720px;
+    bottom: 355px;
+    margin-top: -352px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .summer {
+    float: left;
+    position: relative;
+    left: 420px;
+    width: 400px;
+    top: 0;
+  }
+
+  .summer p {
+    color: yellow;
+    position: absolute;
+    font-style: $font-style;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    padding-top: 130px;
+    padding-left: 80px;
+    margin-bottom: 0;
+    font-size: 60px;
+    opacity: 0;
+  }
+
+  .summer p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+  /*index-3.html summer-page*/
+
+  .summer-title {
+    position: relative;
+    top: 200px;
+    left: 580px;
+  }
+
+  .summer-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: yellow;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 23px;
+    width: 325px;
+    right: 22px;
+  }
+
+  .summer-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 167px;
+    left: 640px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .summer-cord1 {
+    position: relative;
+    top: 500px;
+    left: 200px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .summer-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord2 {
+    position: relative;
+    left: 820px;
+    width: 400px;
+    top: 30px;
+  }
+
+  .summer-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 200px;
+    width: 400px;
+  }
+
+  .summer-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord4 {
+    position: relative;
+    left: 820px;
+    bottom: 337px;
+    width: 400px;
+    top: -337px;
+  }
+
+  .summer-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-summer {
+    background-image: url(../big-photos/braun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 199px;
+    margin-top: -150px;
+  }
+
+  .middle-summer p {
+    position: relative;
+    left: 765px;
+    color: $middle-summer;
+    font-size: 80px;
+    width: 127px;
+    top: 80px;
+    font-family: serif;
+    opacity: 0.7;
+  }
+
+  .summer-cord5{
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 200px;
+  }
+
+  .summer-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord6 {
+    width: 380px;
+    float: left;
+    position: relative;
+    left: 420px;
+    top: 200px;
+  }
+
+  .summer-cord6 p {
+    color: $border-color;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord7 {
+    width: 400px;
+    position: relative;
+    left: 200px;
+    top: 300px;
+  }
+
+  .summer-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .summer-cord8 {
+    width: 400px;
+    position: relative;
+    left: 820px;
+    bottom: 355px;
+    top: 100px;
+    margin-top: -253px;
+  }
+
+  .summer-cord8 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,2547 @@
+/*top page summer image*/
+
+.seasonal {
+  position: relative;
+  top: 530px;
+}
+
+.spring {
+  float: left;
+  position: relative;
+  left: 200px;
+}
+
+.spring p {
+  margin-bottom: 0;
+  font-style: $font-style;
+  padding-top: 150px;
+  padding-left: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 50px;
+  color: $spring-color;
+  width: 400px;
+  height: 400px;
+}
+
+.spring p:hover{
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease-in-out;
+}
+
+.spring-page {
+  color: $spring-color;
+  text-decoration: none;
+}
+
+/*top page spring image */
+
+/*index02.html spring page*/
+.spring-title {
+  position: relative;
+  top: 200px;
+  left: 600px;
+}
+
+.spring-title h1 {
+  font-size: 90px;
+  font-style: $font-style;
+  color: $spring-color;
+  font-family: -webkit-pictograph;
+}
+
+.spring-title p{
+  border-bottom: solid 1px $border-color;
+  position: relative;
+  bottom: 10px;
+  width: 300px;
+  right: 40px;
+}
+
+.spring-title-comment p{
+  text-decoration: none;
+  position: relative;
+  top: 174px;
+  left: 640px;
+  color: $border-color;
+  font-style: oblique;
+  font-family: -webkit-pictograph;
+}
+
+.spring-cord1 {
+  position: relative;
+  top: 500px;
+  left: 200px;
+  right: 100px;
+  width: 400px;
+}
+
+.spring-cord1 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.spring-cord2 {
+  position: relative;
+  left: 850px;
+  width: 400px;
+  top: 30px;
+}
+
+.spring-cord2 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.spring-cord3 {
+  position: relative;
+  right: 100px;
+  top: 115px;
+  left: 200px;
+  width: 400px;
+}
+
+.spring-cord3 p{
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.spring-cord4 {
+  position: relative;
+  left: 850px;
+  bottom: 337px;
+  width: 400px;
+}
+
+.spring-cord4 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.middle-spring {
+  background-image: url(../big-photos/shop-img.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1055px;
+  color: white;
+  position: relative;
+  bottom: 200px;
+  left: 199px;
+}
+
+.spring-cord5{
+  width: 400px;
+  float: left;
+  position: relative;
+  left: 200px;
+}
+
+.spring-cord5 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.spring-cord6 {
+  width: 400px;
+  float: left;
+  position: relative;
+  left: 450px;
+}
+
+.spring-cord6 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.spring-cord7 {
+  width: 400px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+.spring-cord7 p {
+  color: $border-color;
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+.spring-cord8 {
+  width: 400px;
+  position: relative;
+  left: 850px;
+  bottom: 390px;
+}
+
+.spring-cord8 p {
+  color: $border-color;/*darkgray*/
+  font-size: 13px;
+  font-style: oblique;
+  font-family: serif;
+  line-height: 1.4;
+}
+
+@media (min-width: 320px) {
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 20px;
+    width: 250px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 0;
+    padding-left: 0;
+    position: absolute;
+    left: 50px;
+    top: -90px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: $spring-color;
+    width: 0;
+    height: 0;
+  }
+
+  .spring p:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring a:hover{ /*spring link hover*/
+    color: $spring-color;
+    opacity: 0.75;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 70px;
+  }
+
+  .spring-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 220px;
+    right: 17px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 150px;
+    top: 174px;
+    left: 91px;
+    margin: 0;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 300px;
+    left: -4px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: -4px;
+    width: 300px;
+    top: 350px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    top: 415px;
+    left: -4px;
+    width: 300px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    bottom: 0;
+    left: -4px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/shop-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    color: white;
+    position: relative;
+    top: 650px;
+    left: -5px;
+  }
+
+  .spring-cord5{
+    width: 300px;
+    position: relative;
+    left: -4px;
+    top: 800px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 300px;
+    position: relative;
+    left: -4px;
+    top: 900px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 300px;
+    position: relative;
+    left: -4px;
+    top: 1000px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 300px;
+    position: relative;
+    left: -4px;
+    top: 1000px;
+    padding-top: 100px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 360px) {
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 16px;
+    width: 300px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 0;
+    padding-left: 0;
+    position: absolute;
+    left: 70px;
+    top: -90px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: $spring-color;
+    width: 0;
+    height: 0;
+  }
+
+  .spring p:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring a:hover{ /*spring link hover*/
+    color: $spring-color;
+    opacity: 0.75;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 90px;
+  }
+
+  .spring-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 220px;
+    right: 17px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 150px;
+    top: 174px;
+    left: 107px;
+    margin: 0;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 300px;
+    left: 16px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 16px;
+    width: 300px;
+    top: 350px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    top: 415px;
+    left: 16px;
+    width: 300px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    bottom: 0;
+    left: 16px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/shop-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 340px;
+    color: white;
+    position: relative;
+    top: 650px;
+    left: -4px;
+  }
+
+  .spring-cord5{
+    width: 300px;
+    position: relative;
+    left: 16px;
+    top: 800px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 300px;
+    position: relative;
+    left: 16px;
+    top: 900px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 300px;
+    position: relative;
+    left: 16px;
+    top: 1000px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 300px;
+    position: relative;
+    left: 16px;
+    top: 1000px;
+    padding-top: 100px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 375px) {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 25px;
+    width: 300px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 0;
+    padding-left: 0;
+    position: absolute;
+    left: 70px;
+    top: -90px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: $spring-color;
+    width: 0;
+    height: 0;
+  }
+
+  .spring p:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring a:hover{ /*spring link hover*/
+    color: $spring-color;
+    opacity: 0.75;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 98px;
+  }
+
+  .spring-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 220px;
+    right: 13px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 150px;
+    top: 174px;
+    left: 115px;
+    margin: 0;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 300px;
+    left: 24px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 24px;
+    width: 300px;
+    top: 350px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    top: 415px;
+    left: 24px;
+    width: 300px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    bottom: 0;
+    left: 24px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/shop-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 345px;
+    color: white;
+    position: relative;
+    top: 650px;
+    left: 1px;
+  }
+
+  .spring-cord5{
+    width: 300px;
+    position: relative;
+    left: 24px;
+    top: 800px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 300px;
+    position: relative;
+    left: 24px;
+    top: 900px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 300px;
+    position: relative;
+    left: 24px;
+    top: 1000px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 300px;
+    position: relative;
+    left: 24px;
+    top: 1000px;
+    padding-top: 100px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 411px) {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 42px;
+    width: 300px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 0;
+    padding-left: 0;
+    position: absolute;
+    left: 65px;
+    top: -90px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: $spring-color;
+    width: 0;
+    height: 0;
+  }
+
+  .spring p:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring a:hover{ /*spring link hover*/
+    color: $spring-color;
+    opacity: 0.75;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 115px;
+  }
+
+  .spring-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 230px;
+    right: 21px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 150px;
+    top: 174px;
+    left: 145px;
+    margin: 0;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 300px;
+    left: 41px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 41px;
+    width: 300px;
+    top: 350px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    top: 415px;
+    left: 41px;
+    width: 300px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    bottom: 0;
+    left: 41px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/shop-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 370px;
+    color: white;
+    position: relative;
+    top: 650px;
+    left: -2px;
+  }
+
+  .spring-cord5{
+    width: 300px;
+    position: relative;
+    left: 41px;
+    top: 800px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 300px;
+    position: relative;
+    left: 41px;
+    top: 900px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 300px;
+    position: relative;
+    left: 41px;
+    top: 1000px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 300px;
+    position: relative;
+    left: 41px;
+    top: 1000px;
+    padding-top: 100px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 425px)  {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 50px;
+    width: 300px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 0;
+    padding-left: 0;
+    position: absolute;
+    left: 70px;
+    top: -90px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: $spring-color;
+    width: 0;
+    height: 0;
+  }
+
+  .spring p:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring a:hover{ /*spring link hover*/
+    color: $spring-color;
+    opacity: 0.75;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 130px;
+  }
+
+  .spring-title h1 {
+    font-size: 70px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 215px;
+    right: 14px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    width: 150px;
+    top: 174px;
+    left: 145px;
+    margin: 0;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 300px;
+    left: 50px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 50px;
+    width: 300px;
+    top: 350px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    top: 415px;
+    left: 50px;
+    width: 300px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    bottom: 0;
+    left: 50px;
+    width: 300px;
+    top: 500px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/shop-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 398px;
+    color: white;
+    position: relative;
+    top: 650px;
+    left: 0;
+  }
+
+  .spring-cord5{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 800px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 900px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 1000px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 1000px;
+    padding-top: 100px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 100px;
+    width: 250px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 90px;
+    padding-left: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 45px;
+    color: $spring-color;
+    width: 250px;
+    height: 250px;
+  }
+
+  .spring p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 275px;
+  }
+
+  .spring-title h1 {
+    font-size: 80px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 250px;
+    right: 20px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 174px;
+    left: 310px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 400px;
+    left: 50px;
+    right: 100px;
+    width: 250px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 450px;
+    width: 250px;
+    top: 80px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    right: 100px;
+    top: 215px;
+    left: 50px;
+    width: 250px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    left: 450px;
+    bottom: 88px;
+    width: 250px;
+    top: -88px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/clothing-store.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 730px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    top: 50px;
+    left: 5px;
+  }
+
+  .spring-cord5{
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 200px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 200px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 250px;
+    position: relative;
+    left: 50px;
+    top: 300px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 250px;
+    position: relative;
+    left: 450px;
+    bottom: 38px;
+    top: -138px;
+    padding-top: 100px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 992px) {
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 120px;
+    width: 280px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 90px;
+    padding-left: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 45px;
+    color: $spring-color;
+    width: 280px;
+    height: 280px;
+  }
+
+  .spring p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 370px;
+  }
+
+  .spring-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 298px;
+    right: 28px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 174px;
+    left: 410px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 400px;
+    left: 100px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 550px;
+    width: 300px;
+    top: 30px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    right: 100px;
+    top: 215px;
+    left: 100px;
+    width: 300px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    left: 550px;
+    bottom: 0;
+    width: 300px;
+    top: -137px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/clothing-store.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 900px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    top: 50px;
+    left: 18px;
+  }
+
+  .spring-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 200px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 250px;
+    top: 200px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 300px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 300px;
+    position: relative;
+    left: 550px;
+    bottom: 38px;
+    top: -188px;
+    padding-top: 100px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 130px;
+    width: 320px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 110px;
+    padding-left: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: $spring-color;
+    width: 320px;
+    height: 320px;
+  }
+
+  .spring p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 390px;
+  }
+
+  .spring-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 280px;
+    right: 20px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 174px;
+    left: 440px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 400px;
+    left: 110px;
+    right: 100px;
+    width: 300px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 590px;
+    width: 300px;
+    top: 30px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 110px;
+    width: 300px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    left: 590px;
+    bottom: 240px;
+    width: 300px;
+    top: -237px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/clothing-store.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 750px;
+    color: white;
+    position: relative;
+    top: -47px;
+    bottom: 0px;
+    left: 130px;
+  }
+
+  .spring-cord5{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 110px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 290px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 300px;
+    position: relative;
+    left: 110px;
+    top: 300px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 300px;
+    position: relative;
+    left: 590px;
+    bottom: 290px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 175px;
+    width: 320px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 110px;
+    padding-left: 85px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: $spring-color;
+    width: 320px;
+    height: 320px;
+  }
+
+  .spring p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 480px;
+  }
+
+  .spring-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 300px;
+    right: 40px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 174px;
+    left: 530px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 400px;
+    left: 200px;
+    right: 100px;
+    width: 320px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 690px;
+    width: 320px;
+    top: 10px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 200px;
+    width: 320px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    left: 690px;
+    bottom: 257px;
+    width: 320px;
+    top: -258px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/clothing-store.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 810px;
+    color: white;
+    position: relative;
+    top: -100px;
+    left: 199px;
+  }
+
+  .spring-cord5{
+    width: 320px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 100px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 320px;
+    float: left;
+    position: relative;
+    left: 370px;
+    top: 100px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 320px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 320px;
+    position: relative;
+    left: 690px;
+    bottom: 210px;
+    top: -310px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1280px)  {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 190px;
+    width: 350px;
+  }
+
+  .spring p {/*hover*/
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 130px;
+    padding-left: 95px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 60px;
+    color: $spring-color;
+    width: 350px;
+    height: 350px;
+  }
+
+  .spring p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  /*index02.html spring page*/
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 520px;
+  }
+
+  .spring-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 300px;
+    right: 30px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 174px;
+    left: 570px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 500px;
+    left: 120px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 730px;
+    width: 400px;
+    top: 30px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 120px;
+    width: 400px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    left: 730px;
+    bottom: 337px;
+    width: 400px;
+    top: -337px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/clothing-store.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1055px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    top: -100px;
+    left: 139px;
+  }
+
+  .spring-cord5{
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 120px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 330px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 400px;
+    position: relative;
+    left: 120px;
+    top: 300px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 400px;
+    position: relative;
+    left: 730px;
+    bottom: 188px;
+    top: -289px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1440px)  {
+
+  .seasonal {
+    position: relative;
+    top: 530px;
+  }
+
+  .spring {
+    float: left;
+    position: relative;
+    left: 210px;
+    width: 400px;
+  }
+
+  .spring p {
+    margin-bottom: 0;
+    font-style: $font-style;
+    padding-top: 131px;
+    padding-left: 102px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 60px;
+    color: $spring-color;
+    width: 400px;
+    height: 400px;
+  }
+
+  .spring p:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .spring-page {
+    color: $spring-color;
+    text-decoration: none;
+  }
+
+  /*index02.html spring page*/
+  .spring-title {
+    position: relative;
+    top: 200px;
+    left: 600px;
+  }
+
+  .spring-title h1 {
+    font-size: 90px;
+    font-style: $font-style;
+    color: $spring-color;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-title p{
+    border-bottom: solid 1px $border-color;
+    position: relative;
+    bottom: 10px;
+    width: 281px;
+    right: 22px;
+  }
+
+  .spring-title-comment p{
+    text-decoration: none;
+    position: relative;
+    top: 174px;
+    left: 650px;
+    color: $border-color;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+  }
+
+  .spring-cord1 {
+    position: relative;
+    top: 500px;
+    left: 200px;
+    right: 100px;
+    width: 400px;
+  }
+
+  .spring-cord1 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord2 {
+    position: relative;
+    left: 850px;
+    width: 400px;
+    top: 30px;
+  }
+
+  .spring-cord2 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord3 {
+    position: relative;
+    right: 100px;
+    top: 115px;
+    left: 200px;
+    width: 400px;
+  }
+
+  .spring-cord3 p{
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord4 {
+    position: relative;
+    left: 850px;
+    bottom: 337px;
+    width: 400px;
+  }
+
+  .spring-cord4 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .middle-spring {
+    background-image: url(../big-photos/clothing-store.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1055px;
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 199px;
+  }
+
+  .spring-cord5{
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 300px;
+  }
+
+  .spring-cord5 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord6 {
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 450px;
+    top: 300px;
+  }
+
+  .spring-cord6 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord7 {
+    width: 400px;
+    position: relative;
+    left: 200px;
+    top: 400px;
+  }
+
+  .spring-cord7 p {
+    color: $border-color;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+
+  .spring-cord8 {
+    width: 400px;
+    position: relative;
+    left: 850px;
+    bottom: 88px;
+    top: -188px;
+  }
+
+  .spring-cord8 p {
+    color: $border-color;/*darkgray*/
+    font-size: 13px;
+    font-style: oblique;
+    font-family: serif;
+    line-height: 1.4;
+  }
+}

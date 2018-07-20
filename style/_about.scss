@@ -1,0 +1,522 @@
+.About {
+  display: flex;
+  min-width: 1000px;
+  margin-left: 300px;
+  position: relative;
+  top: 170px;
+}
+
+.profile-image {
+  position: relative;
+  left: 80px;
+  margin-top: 30px;
+}
+
+.intro {
+  margin-top: 110px;
+  margin-left: 90px;
+}
+
+.intro h2 {
+  font-family: -webkit-pictograph;
+}
+
+.intro p {
+  font-family: serif;
+}
+
+.middle-text h3 {
+  position: relative;
+  top: 220px;
+  right: 35px;
+  font-style: $font-style;
+  font-size: 17px;
+  color: silver;
+  border-bottom: solid 1px;
+  width: 96px;
+}
+
+
+@media (min-width: 320px) {
+  .About {
+    display: inline-block;
+    min-width: 0;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 150px;
+    left: -217px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 16px;
+    margin-left: -247px;
+    width: 240px;
+  }
+
+  .intro h2 {
+    margin-left: 43px;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 150px;
+    right: -30px;
+    font-style: oblique;
+    font-size: 20px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 165px;
+  }
+}
+
+@media (min-width: 360px) {
+  .About {
+    display: inline-block;
+    min-width: 0;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 150px;
+    left: -200px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 16px;
+    margin-left: -228px;
+    width: 240px;
+  }
+
+  .intro h2 {
+    margin-left: 44px;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 150px;
+    right: -30px;
+    font-style: oblique;
+    font-size: 20px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 179px;
+  }
+}
+
+@media (min-width: 375px) {
+  .About {
+    display: inline-block;
+    min-width: 0;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 150px;
+    left: -195px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 16px;
+    margin-left: -225px;
+    width: 240px;
+  }
+
+  .intro h2 {
+    margin-left: 44px;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 150px;
+    right: -30px;
+    font-style: oblique;
+    font-size: 20px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 179px;
+  }
+}
+
+@media (min-width: 411px) {
+  .About {
+    display: inline-block;
+    min-width: 0;
+    margin-left: 292px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 155px;
+    left: -175px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 16px;
+    margin-left: -193px;
+    width: 234px;
+  }
+
+  .intro h2 {
+    margin-left: 39px;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 150px;
+    right: -23px;
+    font-style: oblique;
+    font-size: 20px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 179px;
+  }
+}
+
+@media (min-width: 425px) {
+  .About {
+    display: inline-block;
+    min-width: 0;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 180px;
+    left: -184px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 16px;
+    margin-left: -196px;
+    width: 240px;
+  }
+
+  .intro h2 {
+    margin-left: 48px;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 150px;
+    right: -30px;
+    font-style: oblique;
+    font-size: 20px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 179px;
+  }
+}
+
+@media (min-width: 768px) {
+  .About {
+    display: flex;
+    width: 400px;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 180px;
+    left: -110px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-left: -90px;
+    width: 289px;
+    margin-top: 58px;
+  }
+
+  .intro h2 {
+    margin-left: 0;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 220px;
+    right: 96px;
+    font-style: oblique;
+    font-size: 24px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .About {
+    display: flex;
+    min-width: 400px;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 230px;
+    left: -26px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 75px;
+    margin-left: -15px;
+    width: 300px;
+  }
+
+  .intro h2 {
+    margin-left: 0;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 220px;
+    right: 70px;
+    font-style: oblique;
+    font-size: 24px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 201px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .About {
+    display: flex;
+    min-width: 600px;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 230px;
+    left: -26px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 75px;
+    margin-left: -15px;
+    width: 320px;
+  }
+
+  .intro h2 {
+    margin-left: 0;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 13px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 220px;
+    right: 100px;
+    font-style: oblique;
+    font-size: 24px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 201px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .About {
+    display: flex;
+    min-width: 850px;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 215px;
+    left: 20px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 580px;
+  }
+
+  .intro h2 {
+    margin-left: 0;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 15px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 220px;
+    right: 43px;
+    font-style: oblique;
+    font-size: 24px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 201px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .About {
+    display: flex;
+    min-width: 900px;
+    margin-left: 340px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 250px;
+    left: 0;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 90px;
+    margin-left: 20px;
+    width: 571px;
+  }
+
+  .intro h2 {
+    margin-left: 0;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-size: 16px;
+    font-family: serif;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 220px;
+    right: 66px;
+    font-style: oblique;
+    font-size: 24px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 202px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .About {
+    display: flex;
+    min-width: 1000px;
+    margin-left: 300px;
+    position: relative;
+    top: 170px;
+  }
+
+  .profile-image {
+    position: relative;
+    width: 300px;
+    left: 80px;
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 110px;
+    margin-left: 90px;
+    width: 571px;
+  }
+
+  .intro h2 {
+    margin-left: 0;
+    font-family: -webkit-pictograph;
+  }
+
+  .intro p {
+    font-family: serif;
+    font-size: 16px;
+  }
+
+  .middle-text h3 {
+    position: relative;
+    top: 220px;
+    right: 75px;
+    font-style: $font-style;
+    font-size: 24px;
+    color: silver;
+    border-bottom: solid 1px;
+    width: 213px;
+  }
+}

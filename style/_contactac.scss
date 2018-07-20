@@ -1,0 +1,789 @@
+
+@media (min-width: 320px) {
+  .contact-accessory {
+    position: relative;
+    top: 1400px;
+    height: 200px;
+    left: 21px;
+    width: 280px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 120px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 320px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 360px) {
+  .contact-accessory {
+    position: relative;
+    top: 1400px;
+    height: 200px;
+    left: 30px;
+    width: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 120px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 360px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 375px) {
+  .contact-accessory {
+    position: relative;
+    top: 1400px;
+    height: 200px;
+    left: 38px;
+    width: 300px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 130px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 375px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 411px) {
+  .contact-accessory {
+    position: relative;
+    top: 1400px;
+    height: 200px;
+    left: 31px;
+    width: 350px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 50px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 130px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 411px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 425px) {
+  .contact-accessory {
+    position: relative;
+    top: 1400px;
+    height: 200px;
+    left: 40px;
+    width: 350px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 130px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 425px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-accessory {
+    position: relative;
+    top: 10px;
+    height: 200px;
+    left: 150px;
+    width: 490px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 150px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 768px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-accessory {
+    position: relative;
+    top: 10px;
+    height: 210px;
+    left: 211px;
+    width: 600px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 150px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 992px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-accessory {
+    position: relative;
+    top: 10px;
+    height: 210px;
+    left: 211px;
+    width: 600px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 150px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 1024px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-accessory {
+    position: relative;
+    top: 45px;
+    height: 200px;
+    left: 150px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 150px;
+  }
+
+  .contact-accessory h2{
+    border-bottom: solid 1px black;
+    width: 1200px;
+    position: relative;
+    bottom: 530px;
+    right: 150px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .contact-accessory {
+    position: relative;
+    top: -200px;
+    height: 200px;
+    left: 200px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 170px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .contact-accessory {
+    position: relative;
+    top: -100px;
+    height: 200px;
+    left: 270px;
+    width: 900px;
+    border: solid 0;
+    border-color: $border-color;/* variablesを利用 */
+    text-align: center;
+    text-decoration: none;
+    background-color: $border-color;
+    opacity: 0.25;
+
+     a {
+      color: $base-color;
+      position: relative;
+      top: 50px;
+      text-decoration: none;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 0.5;
+    }
+
+    a:hover {
+      color: $base-color;
+      position: relative;
+      font-size: 60px;
+      font-style: italic;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    p{
+      padding-top: 250px;
+      font-size: 13px;
+      color: $base-color;
+    }
+  }
+
+  .contact-accessory a::before, .contact-accessory a::after {
+    border-color: $base-color;
+    border-bottom: solid 5px #fff462;/*ミモザmimosa*/
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  .contact-accessory a::before {
+    left: 50%;
+  }
+
+  .contact-accessory a::after {
+    right: 50%;
+  }
+
+  .contact-accessory a:hover::before, .contact-accessory a:hover::after {
+    width: 100%;
+  }
+}

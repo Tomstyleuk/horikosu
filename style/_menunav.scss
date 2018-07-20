@@ -1,0 +1,1036 @@
+
+.hm_menu_check {/* チェックボックスを隠す */
+  display: none;
+}
+
+.hm_wrap {
+	display: inline-block;
+	position: relative;
+  right: 90px;
+	width: 100%;
+	padding: 10px;
+	background: #fff;
+  margin-top: 20px;
+}
+
+.hm_title {/* ハンバーガーメニューオープン時の見出し Menu */
+	position: fixed;
+	color: #999;
+	display: inline-block;
+	float: left;
+	font-weight: 100;
+	line-height: 30px;
+	margin: 0 0 0 140px;
+	opacity: 0;
+	-webkit-transform: translate3d(0, -15px, 0);
+	transform: translate3d(0, -15px, 0);
+	-webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+	transition: transform 0.6s, opacity 0.5s;
+	z-index: 2;
+}
+
+/* ▽▽メニューボタン▽▽ */
+
+.hm_btn {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  float: left;
+  z-index: 2;
+  left: 30px;
+}
+
+.hm_btn::before {
+	-webkit-box-shadow: gray 0 12px 0; /*menu bar middle line*/
+	box-shadow: gray 0 12px 0;
+}
+
+.hm_btn::after {
+	bottom: 0;
+}
+
+.hm_btn::before,
+.hm_btn::after {
+	width: 30px;
+	height: 6px;
+	background: gray; /*black #000*/
+	display: block;
+	content: '';
+	position: absolute;
+	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+	transition: box-shadow 0.2s linear, transform 0.2s 0.2s;
+}
+/* △△メニューボタン△△ */
+
+.hm_menu_wrap {
+  width: 135px;
+	background: #fff;
+	position: fixed;
+	left: -100%;
+	top: 30px;
+	-webkit-transition: left 0.4s;
+	transition: left 0.4s;
+}
+
+/* ▽▽開閉時のアニメーション▽▽ */
+.hm_menu_check:checked ~ .hm_title {
+	opacity: 1;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
+.hm_menu_check:checked ~ .hm_btn::before {
+	-webkit-box-shadow: transparent 0 0 0;
+	box-shadow: transparent 0 0 0;
+	-webkit-transform: rotate(45deg) translate3d(6px, 11px, 0);
+	transform: rotate(45deg) translate3d(6px, 11px, 0);
+}
+
+.hm_menu_check:checked ~ .hm_btn::after {
+	-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+	transform: rotate(-45deg) translate3d(6px, -11px, 0);
+}
+
+.hm_menu_check:checked ~ .hm_menu_wrap { /*menu bar position*/
+	left: 0;
+}
+
+/* △△開閉時のアニメーション△△ */
+
+/* ▽▽メニュー内のリストスタイル▽▽ */
+.hm_list {
+	list-style-type: none;
+	margin: 50px 0 0;
+	padding: 0;
+}
+
+.hm_list li a {
+	color: #777; /*777*/
+	display: block;
+	overflow: hidden;
+	padding: 8px 22px;
+	position: relative;
+	text-decoration: none;
+	z-index: 1;
+  font-size: 20px;
+}
+
+.hm_list li a::before {/* aタグマウスオーバー時の背景 */
+	background: #f9f4ff; /* aタグマウスオーバー時の背景colour#fdfdfd薄いgray */
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 100%;
+	left: 0;
+	-webkit-transition: bottom 0.4s;
+	transition: bottom 0.4s;
+	z-index: -1;
+}
+
+.hm_list li a:hover::before {
+	bottom: 0;
+}
+
+.hm_list li a:hover::after {
+	opacity: 0.5;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+/* メニュー内のリストスタイル△△ */
+
+
+/*spring page responsive*/
+
+@media (min-width: 320px) {
+
+  .hm_menu_check {/* チェックボックスを隠す */
+    display: none;
+  }
+
+  .hm_wrap {
+  	display: inline-block;
+  	position: relative;
+    right: 90px;
+  	width: 100%;
+  	padding: 10px;
+  	background: #fff;
+    margin-top: 20px;
+  }
+
+  .hm_title {/* ハンバーガーメニューオープン時の見出し Menu */
+  	position: fixed;
+  	color: #999;
+  	display: inline-block;
+  	float: left;
+  	font-weight: 100;
+  	line-height: 30px;
+    margin: 0 0 0 202px;
+  	opacity: 0;
+  	-webkit-transform: translate3d(0, -15px, 0);
+  	transform: translate3d(0, -15px, 0);
+  	-webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  	transition: transform 0.6s, opacity 0.5s;
+  	z-index: 2;
+  }
+
+  /* ▽▽メニューボタン▽▽ */
+
+  .hm_btn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: left;
+    z-index: 2;
+    left: 30px;
+  }
+
+  .hm_btn::before {
+  	-webkit-box-shadow: gray 0 12px 0; /*menu bar middle line*/
+  	box-shadow: gray 0 12px 0;
+  }
+
+  .hm_btn::after {
+  	bottom: 0;
+  }
+
+  .hm_btn::before,
+  .hm_btn::after {
+  	width: 30px;
+  	height: 6px;
+  	background: gray; /*black #000*/
+  	display: block;
+  	content: '';
+  	position: absolute;
+  	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+  	transition: box-shadow 0.2s linear, transform 0.2s 0.2s;
+  }
+  /* △△メニューボタン△△ */
+
+  .hm_menu_wrap {
+    width: 320px;
+  	background: #fff;
+  	position: fixed;
+  	left: -100%;
+  	top: 30px;
+  	-webkit-transition: left 0.4s;
+  	transition: left 0.4s;
+  }
+
+  /* ▽▽開閉時のアニメーション▽▽ */
+  .hm_menu_check:checked ~ .hm_title {
+  	opacity: 1;
+  	-webkit-transform: none;
+  	-ms-transform: none;
+  	transform: none;
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::before {
+  	-webkit-box-shadow: transparent 0 0 0;
+  	box-shadow: transparent 0 0 0;
+  	-webkit-transform: rotate(45deg) translate3d(6px, 11px, 0);
+  	transform: rotate(45deg) translate3d(6px, 11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::after {
+  	-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  	transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_menu_wrap { /*menu bar position*/
+  	left: 0;
+  }
+
+  /* △△開閉時のアニメーション△△ */
+
+  /* ▽▽メニュー内のリストスタイル▽▽ */
+  .hm_list {
+  	list-style-type: none;
+  	margin: 50px 0 0;
+  	padding: 0;
+  }
+
+  .hm_list li a {
+    color: #777;
+    display: block;
+    overflow: hidden;
+    /* padding: 8px 175px; */
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    height: 47px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hm_list li a::before {/* aタグマウスオーバー時の背景 */
+  	background: #f9f4ff; /* aタグマウスオーバー時の背景colour#fdfdfd薄いgray */
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 100%;
+  	left: 0;
+  	-webkit-transition: bottom 0.4s;
+  	transition: bottom 0.4s;
+  	z-index: -1;
+  }
+
+  .hm_list li a:hover::before {
+  	bottom: 0;
+  }
+
+  .hm_list li a:hover::after {
+  	opacity: 0.5;
+  	-webkit-transform: translate3d(0, 0, 0);
+  	transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 360px) {
+
+  .hm_menu_check {/* チェックボックスを隠す */
+    display: none;
+  }
+
+  .hm_wrap {
+  	display: inline-block;
+  	position: relative;
+    right: 90px;
+  	width: 100%;
+  	padding: 10px;
+  	background: #fff;
+    margin-top: 20px;
+  }
+
+  .hm_title {/* ハンバーガーメニューオープン時の見出し Menu */
+  	position: fixed;
+  	color: #999;
+  	display: inline-block;
+  	float: left;
+  	font-weight: 100;
+  	line-height: 30px;
+    margin: 0 0 0 230px;
+  	opacity: 0;
+  	-webkit-transform: translate3d(0, -15px, 0);
+  	transform: translate3d(0, -15px, 0);
+  	-webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  	transition: transform 0.6s, opacity 0.5s;
+  	z-index: 2;
+  }
+
+  /* ▽▽メニューボタン▽▽ */
+
+  .hm_btn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: left;
+    z-index: 2;
+    left: 30px;
+  }
+
+  .hm_btn::before {
+  	-webkit-box-shadow: gray 0 12px 0; /*menu bar middle line*/
+  	box-shadow: gray 0 12px 0;
+  }
+
+  .hm_btn::after {
+  	bottom: 0;
+  }
+
+  .hm_btn::before,
+  .hm_btn::after {
+  	width: 30px;
+  	height: 6px;
+  	background: gray; /*black #000*/
+  	display: block;
+  	content: '';
+  	position: absolute;
+  	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+  	transition: box-shadow 0.2s linear, transform 0.2s 0.2s;
+  }
+  /* △△メニューボタン△△ */
+
+  .hm_menu_wrap {
+    width: 360px;
+  	background: #fff;
+  	position: fixed;
+  	left: -100%;
+  	top: 30px;
+  	-webkit-transition: left 0.4s;
+  	transition: left 0.4s;
+  }
+
+  /* ▽▽開閉時のアニメーション▽▽ */
+  .hm_menu_check:checked ~ .hm_title {
+  	opacity: 1;
+  	-webkit-transform: none;
+  	-ms-transform: none;
+  	transform: none;
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::before {
+  	-webkit-box-shadow: transparent 0 0 0;
+  	box-shadow: transparent 0 0 0;
+  	-webkit-transform: rotate(45deg) translate3d(6px, 11px, 0);
+  	transform: rotate(45deg) translate3d(6px, 11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::after {
+  	-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  	transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_menu_wrap { /*menu bar position*/
+  	left: 0;
+  }
+
+  /* △△開閉時のアニメーション△△ */
+
+  /* ▽▽メニュー内のリストスタイル▽▽ */
+  .hm_list {
+  	list-style-type: none;
+  	margin: 50px 0 0;
+  	padding: 0;
+  }
+
+  .hm_list li a {
+    color: #777;
+    display: block;
+    overflow: hidden;
+    /* padding: 8px 175px; */
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    height: 47px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hm_list li a::before {/* aタグマウスオーバー時の背景 */
+  	background: #f9f4ff; /* aタグマウスオーバー時の背景colour#fdfdfd薄いgray */
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 100%;
+  	left: 0;
+  	-webkit-transition: bottom 0.4s;
+  	transition: bottom 0.4s;
+  	z-index: -1;
+  }
+
+  .hm_list li a:hover::before {
+  	bottom: 0;
+  }
+
+  .hm_list li a:hover::after {
+  	opacity: 0.5;
+  	-webkit-transform: translate3d(0, 0, 0);
+  	transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 375px) {
+
+  .hm_menu_check {/* チェックボックスを隠す */
+    display: none;
+  }
+
+  .hm_wrap {
+  	display: inline-block;
+  	position: relative;
+    right: 90px;
+  	width: 100%;
+  	padding: 10px;
+  	background: #fff;
+    margin-top: 20px;
+  }
+
+  .hm_title {/* ハンバーガーメニューオープン時の見出し Menu */
+  	position: fixed;
+  	color: #999;
+  	display: inline-block;
+  	float: left;
+  	font-weight: 100;
+  	line-height: 30px;
+    margin: 0 0 0 230px;
+  	opacity: 0;
+  	-webkit-transform: translate3d(0, -15px, 0);
+  	transform: translate3d(0, -15px, 0);
+  	-webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  	transition: transform 0.6s, opacity 0.5s;
+  	z-index: 2;
+  }
+
+  /* ▽▽メニューボタン▽▽ */
+
+  .hm_btn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: left;
+    z-index: 2;
+    left: 30px;
+  }
+
+  .hm_btn::before {
+  	-webkit-box-shadow: gray 0 12px 0; /*menu bar middle line*/
+  	box-shadow: gray 0 12px 0;
+  }
+
+  .hm_btn::after {
+  	bottom: 0;
+  }
+
+  .hm_btn::before,
+  .hm_btn::after {
+  	width: 30px;
+  	height: 6px;
+  	background: gray; /*black #000*/
+  	display: block;
+  	content: '';
+  	position: absolute;
+  	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+  	transition: box-shadow 0.2s linear, transform 0.2s 0.2s;
+  }
+  /* △△メニューボタン△△ */
+
+  .hm_menu_wrap {
+    width: 375px;
+  	background: #fff;
+  	position: fixed;
+  	left: -100%;
+  	top: 30px;
+  	-webkit-transition: left 0.4s;
+  	transition: left 0.4s;
+  }
+
+  /* ▽▽開閉時のアニメーション▽▽ */
+  .hm_menu_check:checked ~ .hm_title {
+  	opacity: 1;
+  	-webkit-transform: none;
+  	-ms-transform: none;
+  	transform: none;
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::before {
+  	-webkit-box-shadow: transparent 0 0 0;
+  	box-shadow: transparent 0 0 0;
+  	-webkit-transform: rotate(45deg) translate3d(6px, 11px, 0);
+  	transform: rotate(45deg) translate3d(6px, 11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::after {
+  	-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  	transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_menu_wrap { /*menu bar position*/
+  	left: 0;
+  }
+
+  /* △△開閉時のアニメーション△△ */
+
+  /* ▽▽メニュー内のリストスタイル▽▽ */
+  .hm_list {
+  	list-style-type: none;
+  	margin: 50px 0 0;
+  	padding: 0;
+  }
+
+  .hm_list li a {
+    color: #777;
+    display: block;
+    overflow: hidden;
+    /* padding: 8px 175px; */
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    height: 51px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hm_list li a::before {/* aタグマウスオーバー時の背景 */
+  	background: #f9f4ff; /* aタグマウスオーバー時の背景colour#fdfdfd薄いgray */
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 100%;
+  	left: 0;
+  	-webkit-transition: bottom 0.4s;
+  	transition: bottom 0.4s;
+  	z-index: -1;
+  }
+
+  .hm_list li a:hover::before {
+  	bottom: 0;
+  }
+
+  .hm_list li a:hover::after {
+  	opacity: 0.5;
+  	-webkit-transform: translate3d(0, 0, 0);
+  	transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 411px) {
+
+  .hm_menu_check {/* チェックボックスを隠す */
+    display: none;
+  }
+
+  .hm_wrap {
+  	display: inline-block;
+  	position: relative;
+    right: 90px;
+  	width: 100%;
+  	padding: 10px;
+  	background: #fff;
+    margin-top: 20px;
+  }
+
+  .hm_title {/* ハンバーガーメニューオープン時の見出し Menu */
+  	position: fixed;
+  	color: #999;
+  	display: inline-block;
+  	float: left;
+  	font-weight: 100;
+  	line-height: 30px;
+    margin: 0 0 0 255px;
+  	opacity: 0;
+  	-webkit-transform: translate3d(0, -15px, 0);
+  	transform: translate3d(0, -15px, 0);
+  	-webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  	transition: transform 0.6s, opacity 0.5s;
+  	z-index: 2;
+  }
+
+  /* ▽▽メニューボタン▽▽ */
+
+  .hm_btn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: left;
+    z-index: 2;
+    left: 30px;
+  }
+
+  .hm_btn::before {
+  	-webkit-box-shadow: gray 0 12px 0; /*menu bar middle line*/
+  	box-shadow: gray 0 12px 0;
+  }
+
+  .hm_btn::after {
+  	bottom: 0;
+  }
+
+  .hm_btn::before,
+  .hm_btn::after {
+  	width: 30px;
+  	height: 6px;
+  	background: gray; /*black #000*/
+  	display: block;
+  	content: '';
+  	position: absolute;
+  	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+  	transition: box-shadow 0.2s linear, transform 0.2s 0.2s;
+  }
+  /* △△メニューボタン△△ */
+
+  .hm_menu_wrap {
+    width: 411px;
+  	background: #fff;
+  	position: fixed;
+  	left: -100%;
+  	top: 30px;
+  	-webkit-transition: left 0.4s;
+  	transition: left 0.4s;
+  }
+
+  /* ▽▽開閉時のアニメーション▽▽ */
+  .hm_menu_check:checked ~ .hm_title {
+  	opacity: 1;
+  	-webkit-transform: none;
+  	-ms-transform: none;
+  	transform: none;
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::before {
+  	-webkit-box-shadow: transparent 0 0 0;
+  	box-shadow: transparent 0 0 0;
+  	-webkit-transform: rotate(45deg) translate3d(6px, 11px, 0);
+  	transform: rotate(45deg) translate3d(6px, 11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::after {
+  	-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  	transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_menu_wrap { /*menu bar position*/
+  	left: 0;
+  }
+
+  /* △△開閉時のアニメーション△△ */
+
+  /* ▽▽メニュー内のリストスタイル▽▽ */
+  .hm_list {
+  	list-style-type: none;
+  	margin: 50px 0 0;
+  	padding: 0;
+  }
+
+  .hm_list li a {
+    color: #777;
+    display: block;
+    overflow: hidden;
+    /* padding: 8px 175px; */
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    height: 51px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hm_list li a::before {/* aタグマウスオーバー時の背景 */
+  	background: #f9f4ff; /* aタグマウスオーバー時の背景colour#fdfdfd薄いgray */
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 100%;
+  	left: 0;
+  	-webkit-transition: bottom 0.4s;
+  	transition: bottom 0.4s;
+  	z-index: -1;
+  }
+
+  .hm_list li a:hover::before {
+  	bottom: 0;
+  }
+
+  .hm_list li a:hover::after {
+  	opacity: 0.5;
+  	-webkit-transform: translate3d(0, 0, 0);
+  	transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 425px) {
+
+  .hm_menu_check {/* チェックボックスを隠す */
+    display: none;
+  }
+
+  .hm_wrap {
+  	display: inline-block;
+  	position: relative;
+    right: 90px;
+  	width: 100%;
+  	padding: 10px;
+  	background: #fff;
+    margin-top: 20px;
+  }
+
+  .hm_title {/* ハンバーガーメニューオープン時の見出し Menu */
+  	position: fixed;
+  	color: #999;
+  	display: inline-block;
+  	float: left;
+  	font-weight: 100;
+  	line-height: 30px;
+    margin: 0 0 0 255px;
+  	opacity: 0;
+  	-webkit-transform: translate3d(0, -15px, 0);
+  	transform: translate3d(0, -15px, 0);
+  	-webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  	transition: transform 0.6s, opacity 0.5s;
+  	z-index: 2;
+  }
+
+  /* ▽▽メニューボタン▽▽ */
+
+  .hm_btn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: left;
+    z-index: 2;
+    left: 30px;
+  }
+
+  .hm_btn::before {
+  	-webkit-box-shadow: gray 0 12px 0; /*menu bar middle line*/
+  	box-shadow: gray 0 12px 0;
+  }
+
+  .hm_btn::after {
+  	bottom: 0;
+  }
+
+  .hm_btn::before,
+  .hm_btn::after {
+  	width: 30px;
+  	height: 6px;
+  	background: gray; /*black #000*/
+  	display: block;
+  	content: '';
+  	position: absolute;
+  	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+  	transition: box-shadow 0.2s linear, transform 0.2s 0.2s;
+  }
+  /* △△メニューボタン△△ */
+
+  .hm_menu_wrap {
+    width: 425px;
+  	background: #fff;
+  	position: fixed;
+  	left: -100%;
+  	top: 30px;
+  	-webkit-transition: left 0.4s;
+  	transition: left 0.4s;
+  }
+
+  /* ▽▽開閉時のアニメーション▽▽ */
+  .hm_menu_check:checked ~ .hm_title {
+  	opacity: 1;
+  	-webkit-transform: none;
+  	-ms-transform: none;
+  	transform: none;
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::before {
+  	-webkit-box-shadow: transparent 0 0 0;
+  	box-shadow: transparent 0 0 0;
+  	-webkit-transform: rotate(45deg) translate3d(6px, 11px, 0);
+  	transform: rotate(45deg) translate3d(6px, 11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::after {
+  	-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  	transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_menu_wrap { /*menu bar position*/
+  	left: 0;
+  }
+
+  /* △△開閉時のアニメーション△△ */
+
+  /* ▽▽メニュー内のリストスタイル▽▽ */
+  .hm_list {
+  	list-style-type: none;
+  	margin: 50px 0 0;
+  	padding: 0;
+  }
+
+  .hm_list li a {
+    color: #777;
+    display: block;
+    overflow: hidden;
+    /* padding: 8px 175px; */
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    height: 53px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hm_list li a::before {/* aタグマウスオーバー時の背景 */
+  	background: #f9f4ff; /* aタグマウスオーバー時の背景colour#fdfdfd薄いgray */
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 100%;
+  	left: 0;
+  	-webkit-transition: bottom 0.4s;
+  	transition: bottom 0.4s;
+  	z-index: -1;
+  }
+
+  .hm_list li a:hover::before {
+  	bottom: 0;
+  }
+
+  .hm_list li a:hover::after {
+  	opacity: 0.5;
+  	-webkit-transform: translate3d(0, 0, 0);
+  	transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 768px) {
+
+  .hm_menu_check {/* チェックボックスを隠す */
+    display: none;
+  }
+
+  .hm_wrap {
+  	display: inline-block;
+  	position: relative;
+    right: 90px;
+  	width: 100%;
+  	padding: 10px;
+  	background: #fff;
+    margin-top: 20px;
+  }
+
+  .hm_title {/* ハンバーガーメニューオープン時の見出し Menu */
+  	position: fixed;
+  	color: #999;
+  	display: inline-block;
+  	float: left;
+  	font-weight: 100;
+  	line-height: 30px;
+  	margin: 0 0 0 140px;
+  	opacity: 0;
+  	-webkit-transform: translate3d(0, -15px, 0);
+  	transform: translate3d(0, -15px, 0);
+  	-webkit-transition: -webkit-transform 0.6s, opacity 0.5s;
+  	transition: transform 0.6s, opacity 0.5s;
+  	z-index: 2;
+  }
+
+  /* ▽▽メニューボタン▽▽ */
+
+  .hm_btn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: left;
+    z-index: 2;
+    left: 30px;
+  }
+
+  .hm_btn::before {
+  	-webkit-box-shadow: gray 0 12px 0; /*menu bar middle line*/
+  	box-shadow: gray 0 12px 0;
+  }
+
+  .hm_btn::after {
+  	bottom: 0;
+  }
+
+  .hm_btn::before,
+  .hm_btn::after {
+  	width: 30px;
+  	height: 6px;
+  	background: gray; /*black #000*/
+  	display: block;
+  	content: '';
+  	position: absolute;
+  	-webkit-transition: -webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+  	transition: box-shadow 0.2s linear, transform 0.2s 0.2s;
+  }
+  /* △△メニューボタン△△ */
+
+  .hm_menu_wrap {
+    width: 116px;
+  	background: #fff;
+  	position: fixed;
+  	left: -100%;
+  	top: 30px;
+  	-webkit-transition: left 0.4s;
+  	transition: left 0.4s;
+  }
+
+  /* ▽▽開閉時のアニメーション▽▽ */
+  .hm_menu_check:checked ~ .hm_title {
+  	opacity: 1;
+  	-webkit-transform: none;
+  	-ms-transform: none;
+  	transform: none;
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::before {
+  	-webkit-box-shadow: transparent 0 0 0;
+  	box-shadow: transparent 0 0 0;
+  	-webkit-transform: rotate(45deg) translate3d(6px, 11px, 0);
+  	transform: rotate(45deg) translate3d(6px, 11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_btn::after {
+  	-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  	transform: rotate(-45deg) translate3d(6px, -11px, 0);
+  }
+
+  .hm_menu_check:checked ~ .hm_menu_wrap { /*menu bar position*/
+  	left: 0;
+  }
+
+  /* △△開閉時のアニメーション△△ */
+
+  /* ▽▽メニュー内のリストスタイル▽▽ */
+  .hm_list {
+  	list-style-type: none;
+  	margin: 50px 0 0;
+  	padding: 0;
+  }
+
+  .hm_list li a {
+  	color: #777; /*777*/
+  	display: block;
+  	overflow: hidden;
+  	padding: 8px 22px;
+    height: 50px;
+  	position: relative;
+  	text-decoration: none;
+  	z-index: 1;
+    font-size: 20px;
+  }
+
+  .hm_list li a::before {/* aタグマウスオーバー時の背景 */
+  	background: #f9f4ff; /* aタグマウスオーバー時の背景 colour: #fdfdfd 薄いgray */
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 100%;
+  	left: 0;
+  	-webkit-transition: bottom 0.4s;
+  	transition: bottom 0.4s;
+  	z-index: -1;
+  }
+
+  .hm_list li a:hover::before {
+  	bottom: 0;
+  }
+
+  .hm_list li a:hover::after {
+  	opacity: 0.5;
+  	-webkit-transform: translate3d(0, 0, 0);
+  	transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
